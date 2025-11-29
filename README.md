@@ -63,3 +63,41 @@ ls -lh models/phi3
 # You should see: Phi-3-mini-4k-instruct-q4.gguf (around 2.3G)
 
 echo "Setup complete."
+
+
+### Optional: Llama 3 8B Instruct (CPU, GGUF)
+
+You can also run the demo with Meta Llama 3 8B Instruct in GGUF format.
+
+**Requirements**
+
+- A Hugging Face account with access to `meta-llama/Meta-Llama-3-8B-Instruct`.
+- The `huggingface_hub` Python package (already installed in the steps above).
+
+**Download**
+
+From the repo root, with the virtual environment activated:
+
+```bash
+cd LlmStenoExplore
+source .venv/bin/activate
+
+python - << 'PY'
+from pathlib import Path
+from huggingface_hub import hf_hub_download
+
+local_directory = Path("models/llama3_8b")
+local_directory.mkdir(parents=True, exist_ok=True)
+
+model_path = hf_hub_download(
+    repo_id="bartowski/Meta-Llama-3-8B-Instruct-GGUF",
+    filename="Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+    local_dir=local_directory,
+)
+
+print("Downloaded model to:", model_path)
+PY
+
+# Check that the file is there
+ls -lh models/llama3_8b
+# Should show: Meta-Llama-3-8B-Instruct-Q4_K_M.gguf (~4.6G)
