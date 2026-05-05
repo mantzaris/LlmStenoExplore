@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    97179,
+    2031,
+    1071,
+    430,
+    2170,
+    264,
+    5030,
+    69,
+    21846
+  ],
+  "input_ranks": [
+    89803,
+    1345,
+    36,
+    9,
+    554,
+    2,
+    2,
+    30,
+    2
+  ],
+  "key_text": "Flour is cheap",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    58581,
+    1568,
+    239,
+    6,
+    27110,
+    1,
+    2,
+    38,
+    7
+  ],
+  "secret_prefix": ""
+}

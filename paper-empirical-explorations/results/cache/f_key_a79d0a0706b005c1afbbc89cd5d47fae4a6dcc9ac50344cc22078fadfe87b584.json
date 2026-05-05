@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    50209,
+    374,
+    2133,
+    28211,
+    627,
+    791,
+    893,
+    304
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Explain a scene involving a train station.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    66274,
+    24,
+    157,
+    48,
+    3,
+    3,
+    191,
+    3
+  ],
+  "secret_prefix": ""
+}

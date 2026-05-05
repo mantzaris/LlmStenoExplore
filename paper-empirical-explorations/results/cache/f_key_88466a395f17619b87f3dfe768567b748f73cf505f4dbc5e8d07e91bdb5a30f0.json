@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    81895,
+    7127,
+    1473,
+    14235,
+    14198,
+    13465,
+    11621
+  ],
+  "input_ranks": [
+    99353,
+    662,
+    72,
+    684,
+    1,
+    8,
+    4
+  ],
+  "key_text": "Describe coffee in plain language.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    4973,
+    141,
+    301,
+    428,
+    283,
+    25,
+    8
+  ],
+  "secret_prefix": ""
+}

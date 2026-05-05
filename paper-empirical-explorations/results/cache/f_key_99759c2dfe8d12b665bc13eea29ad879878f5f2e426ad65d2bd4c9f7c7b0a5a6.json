@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    112347,
+    13373,
+    102462,
+    111890,
+    320,
+    17721,
+    100417,
+    102152
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Write a short note about old books.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    106408,
+    9,
+    260,
+    33,
+    6,
+    2,
+    7,
+    1
+  ],
+  "secret_prefix": ""
+}

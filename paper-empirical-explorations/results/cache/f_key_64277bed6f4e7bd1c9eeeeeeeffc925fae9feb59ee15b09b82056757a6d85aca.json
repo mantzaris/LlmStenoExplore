@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    160,
+    100521,
+    374,
+    430,
+    1440,
+    1268,
+    1790,
+    0,
+    358
+  ],
+  "input_ranks": [
+    89803,
+    1345,
+    36,
+    9,
+    554,
+    2,
+    2,
+    30,
+    2
+  ],
+  "key_text": "Write about baking bred.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    108317,
+    5979,
+    4,
+    136,
+    1495,
+    10,
+    4,
+    53,
+    2
+  ],
+  "secret_prefix": ""
+}

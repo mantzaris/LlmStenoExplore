@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    68652,
+    472,
+    674,
+    13284,
+    37161,
+    674,
+    79,
+    17438
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Explain a scene involving garden tools.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    73869,
+    5,
+    93,
+    411,
+    5,
+    1,
+    6,
+    2
+  ],
+  "secret_prefix": ""
+}

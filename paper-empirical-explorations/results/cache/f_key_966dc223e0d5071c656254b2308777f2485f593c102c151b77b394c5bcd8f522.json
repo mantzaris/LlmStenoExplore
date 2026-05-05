@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    69534,
+    300,
+    2631,
+    499,
+    649,
+    3041,
+    433
+  ],
+  "input_ranks": [
+    99353,
+    662,
+    72,
+    684,
+    1,
+    8,
+    4
+  ],
+  "key_text": "Describe rain in plain language.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    70503,
+    572,
+    1447,
+    1158,
+    1,
+    42,
+    4
+  ],
+  "secret_prefix": ""
+}

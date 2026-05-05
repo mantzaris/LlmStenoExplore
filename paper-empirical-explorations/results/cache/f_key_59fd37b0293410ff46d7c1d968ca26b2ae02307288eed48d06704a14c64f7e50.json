@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    105599,
+    933,
+    12612,
+    5361,
+    5542,
+    37869,
+    323
+  ],
+  "input_ranks": [
+    99353,
+    662,
+    72,
+    684,
+    1,
+    8,
+    4
+  ],
+  "key_text": "Describe a train station in plain language.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    79116,
+    1450,
+    5197,
+    429,
+    1233,
+    10,
+    1
+  ],
+  "secret_prefix": ""
+}

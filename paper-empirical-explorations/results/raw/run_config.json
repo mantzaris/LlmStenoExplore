@@ -1,0 +1,51 @@
+{
+  "config": {
+    "allow_failures": false,
+    "model_key": "llama3_8b_q4_k_m",
+    "n_ctx": 4096,
+    "n_gpu_layers": 0,
+    "n_threads": null,
+    "num_collision_payloads": 6,
+    "num_commutativity_pairs": 12,
+    "num_commutativity_payloads": 6,
+    "num_keys": 10,
+    "num_payload_key_pairs": 8,
+    "num_payloads": 8,
+    "num_robustness_cases": 6,
+    "num_stability_payloads": 8,
+    "quick_mode": true,
+    "random_seed": 123,
+    "secret_prefix": "",
+    "tail_thresholds": [
+      10,
+      100,
+      1000
+    ],
+    "use_embeddings": false,
+    "use_sklearn_detector": true
+  },
+  "created_at_unix": 1778014183.3046107,
+  "environment": {
+    "llama_cpp": "0.3.16",
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "sklearn_available": true
+  },
+  "paths": {
+    "cache_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/cache",
+    "experiment_root": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations",
+    "figures_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures",
+    "raw_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/raw",
+    "repo_root": "/home/meow/Documents/repos/LlmStenoExplore",
+    "results_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results",
+    "tables_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/tables",
+    "text_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/text"
+  },
+  "tokenization_convention": {
+    "payload_text": "Payload and stegotext display strings are tokenized as model.tokenize((' ' + text).encode('utf-8'), add_bos=True)[1:].",
+    "prefix_context": "Non-empty prefixes are tokenized with add_bos=True and the first BOS token is dropped. Empty prefixes use the model BOS token as the minimal autoregressive context.",
+    "rank_order": "Ranks are 1-indexed. Tokens are sorted by decreasing logit with ties broken by increasing token id."
+  }
+}

@@ -1,0 +1,17 @@
+case_id,payload_id,key_id,payload_text,key_text,payload_token_length,decode_exact_token_match,reverse_exact_token_match,display_string_match,first_mismatch_position,stegotext_text,decoded_text,ranks
+0,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,7,True,True,True,,Pressed backwards/extension of fingers to, A quiet river crossed the valley.,"[99353, 662, 72, 684, 1, 8, 4]"
+1,7,2,The device stopped working after midnight.,Talk about animals in a forest.,7,True,True,True,,"""/>.</gtk_item>
+``”
+
+This", The device stopped working after midnight.,"[89803, 729, 533, 1, 1, 354, 1]"
+2,2,2,The current policy has failed.,Talk about animals in a forest.,6,True,True,True,,"""/>.</summary.)
+
+
+
+<hint hint", The current policy has failed.,"[89803, 40, 102, 7, 9, 3]"
+3,0,3,Switzerland is expensive.,Explain a baseball practice.,4,True,True,True,,	connection with position players, Switzerland is expensive.,"[74364, 3, 435, 2]"
+4,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,6,True,True,True,,WIDTH N... Show all , The meeting starts after lunch.,"[89803, 282, 33, 17, 4, 2]"
+5,7,7,The device stopped working after midnight.,The quick brow fox jumps,7,True,True,True,,"음을 Translate INTO English
+Ready to", The device stopped working after midnight.,"[89803, 729, 533, 1, 1, 354, 1]"
+6,4,4,The lab notebook was hidden in the cabinet.,Describe ancient Roman roads.,9,True,True,True,,WIDTH COM: Roman War Road. Learn more, The lab notebook was hidden in the cabinet.,"[89803, 1345, 36, 9, 554, 2, 2, 30, 2]"
+7,5,3,A small bird landed near the window.,Explain a baseball practice.,8,True,True,True,,주의 Baseball sports / 2024., A small bird landed near the window.,"[99353, 9, 113, 32, 6, 1, 5, 2]"

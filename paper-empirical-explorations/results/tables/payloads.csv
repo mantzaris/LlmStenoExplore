@@ -1,0 +1,9 @@
+payload_id,category,text,token_ids,token_length
+0,mundane natural language,Switzerland is expensive.,"[30221, 374, 11646, 13]",4
+1,factual sentence,The meeting starts after lunch.,"[578, 6574, 8638, 1306, 16163, 13]",6
+2,policy-like sentence,The current policy has failed.,"[578, 1510, 4947, 706, 4745, 13]",6
+3,short sentence,A quiet river crossed the valley.,"[362, 11594, 15140, 28129, 279, 34681, 13]",7
+4,longer sentence,The lab notebook was hidden in the cabinet.,"[578, 10278, 38266, 574, 8340, 304, 279, 22685, 13]",9
+5,mundane natural language,A small bird landed near the window.,"[362, 2678, 12224, 27212, 3221, 279, 3321, 13]",8
+6,factual sentence,The archive contains several old records.,"[578, 18624, 5727, 3892, 2362, 7576, 13]",7
+7,repeated simple payload,The device stopped working after midnight.,"[578, 3756, 10717, 3318, 1306, 33433, 13]",7
