@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    104993,
+    119069,
+    98498,
+    11
+  ],
+  "input_ranks": [
+    74364,
+    3,
+    435,
+    2
+  ],
+  "key_text": "Explain a scene involving rain.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    44650,
+    816,
+    2209,
+    4
+  ],
+  "secret_prefix": ""
+}

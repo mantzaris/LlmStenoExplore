@@ -1,0 +1,11 @@
+key_id,category,text,context_ids,context_token_length
+0,cooking,Write about baking bread.,"[8144, 922, 28915, 16385, 13]",5
+1,travel,Describe a quiet mountain village.,"[75885, 264, 11594, 16700, 14458, 13]",6
+2,animals,Talk about animals in a forest.,"[37310, 922, 10099, 304, 264, 13952, 13]",7
+3,sports,Explain a baseball practice.,"[849, 21435, 264, 20075, 6725, 13]",6
+4,history,Describe ancient Roman roads.,"[75885, 14154, 13041, 19795, 13]",5
+5,neutral,Write a neutral product description.,"[8144, 264, 21277, 2027, 4096, 13]",6
+6,near duplicate,The quick brown fox jumps,"[791, 4062, 14198, 39935, 35308]",5
+7,near duplicate typo,The quick brow fox jumps,"[791, 4062, 60375, 39935, 35308]",5
+8,short cooking,Flour is cheap,"[3968, 414, 374, 12136]",4
+9,object scene,A wooden barrel sits in a cellar,"[32, 23162, 20929, 23874, 304, 264, 76875]",7

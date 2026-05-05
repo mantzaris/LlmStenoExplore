@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    116324,
+    100769,
+    101580,
+    60835,
+    100524,
+    100959
+  ],
+  "input_ranks": [
+    89803,
+    282,
+    33,
+    17,
+    4,
+    2
+  ],
+  "key_text": "The quick brow fox jumps",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    118510,
+    40798,
+    21,
+    15,
+    4,
+    3
+  ],
+  "secret_prefix": ""
+}

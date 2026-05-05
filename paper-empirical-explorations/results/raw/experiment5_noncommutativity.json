@@ -1,750 +1,606 @@
 {
   "pair_summary": [
     {
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "mean_log_rank_commutation_distance": 0.19124198578713378,
+      "key_h": "Talk about animals in a topic.",
+      "key_k": "Describe a quiet mountain village!",
+      "mean_log_rank_commutation_distance": 0.1875239143120115,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.13292939727131195,
+      "p50_log_rank_commutation_distance": 0.19718309333406922,
+      "p95_log_rank_commutation_distance": 0.2312961870432726,
       "pair_id": 0,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "mean_log_rank_commutation_distance": 0.2077957775948909,
+      "key_h": "Explain a baseball",
+      "key_k": "Write about baking topic.",
+      "mean_log_rank_commutation_distance": 0.17305683561371316,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.08683270337569776,
+      "p50_log_rank_commutation_distance": 0.18849999879644413,
+      "p95_log_rank_commutation_distance": 0.25186847593302397,
       "pair_id": 1,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "mean_log_rank_commutation_distance": 0.1554352336665524,
+      "key_h": "Explain a baseball topic.",
+      "key_k": "Describe a quiet mountain topic.",
+      "mean_log_rank_commutation_distance": 0.1424865067565269,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.07863871652468,
+      "p50_log_rank_commutation_distance": 0.1590782182816684,
+      "p95_log_rank_commutation_distance": 0.18810286524372788,
       "pair_id": 2,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "mean_log_rank_commutation_distance": 0.17890625839237356,
+      "key_h": "Explain a baseball practice.s",
+      "key_k": "Explain a baseball practice.",
+      "mean_log_rank_commutation_distance": 0.14036445435742834,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.11170845705737864,
+      "p50_log_rank_commutation_distance": 0.13417707290556524,
+      "p95_log_rank_commutation_distance": 0.1860562159381539,
       "pair_id": 3,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "mean_log_rank_commutation_distance": 0.2196776625154909,
+      "key_h": "Talk about animals in a topic.",
+      "key_k": "Describe a quiet mountain",
+      "mean_log_rank_commutation_distance": 0.15928663276431979,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.10386484921929044,
+      "p50_log_rank_commutation_distance": 0.1538188087779849,
+      "p95_log_rank_commutation_distance": 0.22642395625156084,
       "pair_id": 4,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "mean_log_rank_commutation_distance": 0.18848340180547174,
-      "num_payloads": 6,
-      "pair_id": 5,
-      "sampled_commutation_rate": 0.0
-    },
-    {
-      "key_h": "The quick brow fox jumps",
+      "key_h": "Describe a quiet mountain village.",
       "key_k": "Write about baking bread.",
-      "mean_log_rank_commutation_distance": 0.15803233546516465,
+      "mean_log_rank_commutation_distance": 0.11683893519673327,
       "num_payloads": 6,
-      "pair_id": 6,
-      "sampled_commutation_rate": 0.0
+      "p05_log_rank_commutation_distance": 0.06551194333359354,
+      "p50_log_rank_commutation_distance": 0.10799777560845461,
+      "p95_log_rank_commutation_distance": 0.17712506414837992,
+      "pair_id": 5,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "mean_log_rank_commutation_distance": 0.1359698133830907,
+      "key_h": "xalk about animals in a forest.",
+      "key_k": "Describe a quiet mountain villages.",
+      "mean_log_rank_commutation_distance": 0.17266438830878286,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.0886834842393858,
+      "p50_log_rank_commutation_distance": 0.16580641904810714,
+      "p95_log_rank_commutation_distance": 0.2688508142797072,
+      "pair_id": 6,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+    },
+    {
+      "key_h": "Write a neutral product description.",
+      "key_k": "Explain a baseball practice.",
+      "mean_log_rank_commutation_distance": 0.1747178321678132,
+      "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.11473152812439708,
+      "p50_log_rank_commutation_distance": 0.1746071322577362,
+      "p95_log_rank_commutation_distance": 0.2308578082854923,
       "pair_id": 7,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+    },
+    {
+      "key_h": "Explain a baseball practice!",
+      "key_k": "Write about baking topic.",
+      "mean_log_rank_commutation_distance": 0.18940513589363264,
+      "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.09562515928367046,
+      "p50_log_rank_commutation_distance": 0.21508761020649442,
+      "p95_log_rank_commutation_distance": 0.23975771992457257,
+      "pair_id": 8,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
       "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "mean_log_rank_commutation_distance": 0.19443402589142908,
+      "key_k": "Write about baking bread!",
+      "mean_log_rank_commutation_distance": 0.18758957425433198,
       "num_payloads": 6,
-      "pair_id": 8,
-      "sampled_commutation_rate": 0.0
-    },
-    {
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "mean_log_rank_commutation_distance": 0.20615601439276163,
-      "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.117455413503063,
+      "p50_log_rank_commutation_distance": 0.1863910701696811,
+      "p95_log_rank_commutation_distance": 0.26006261263145963,
       "pair_id": 9,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "mean_log_rank_commutation_distance": 0.2054080245178133,
+      "key_h": "Describe a quiet mountain",
+      "key_k": "Write about baking bread.",
+      "mean_log_rank_commutation_distance": 0.16087325604511968,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.07234645892308754,
+      "p50_log_rank_commutation_distance": 0.18529670934559983,
+      "p95_log_rank_commutation_distance": 0.21977626741734296,
       "pair_id": 10,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     },
     {
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "mean_log_rank_commutation_distance": 0.1348254727266463,
+      "key_h": "Explain a baseball practice!",
+      "key_k": "Describe a quiet mountain village!",
+      "mean_log_rank_commutation_distance": 0.16680747100916268,
       "num_payloads": 6,
+      "p05_log_rank_commutation_distance": 0.08840943322250878,
+      "p50_log_rank_commutation_distance": 0.18714542020877184,
+      "p95_log_rank_commutation_distance": 0.20568932322911343,
       "pair_id": 11,
-      "sampled_commutation_rate": 0.0
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.3903342879021653,
+      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
     }
   ],
-  "rows": [
+  "payload_rows": [
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.10894094198765165,
+      "log_rank_commutation_distance": 0.2180026236601278,
       "pair_id": 0,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.1452886230165602,
+      "log_rank_commutation_distance": 0.14971215651659908,
       "pair_id": 0,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.3241696462394548,
+      "log_rank_commutation_distance": 0.20944468712700903,
       "pair_id": 0,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.19075723627908123,
+      "log_rank_commutation_distance": 0.12733514418954958,
       "pair_id": 0,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.23339396543861968,
+      "log_rank_commutation_distance": 0.1849214995411294,
       "pair_id": 0,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "The quick brown fox jumps",
-      "log_rank_commutation_distance": 0.14490150176143507,
+      "log_rank_commutation_distance": 0.23572737483765419,
       "pair_id": 0,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.22847656015439366,
+      "log_rank_commutation_distance": 0.09897794692173481,
       "pair_id": 1,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.23617262828154276,
+      "log_rank_commutation_distance": 0.17853715196582007,
       "pair_id": 1,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.1694324658680474,
+      "log_rank_commutation_distance": 0.26394756171239603,
       "pair_id": 1,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.15567550391353954,
+      "log_rank_commutation_distance": 0.08278428886035208,
       "pair_id": 1,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.1969426705157763,
+      "log_rank_commutation_distance": 0.19846284562706817,
       "pair_id": 1,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Explain a baseball practice.",
-      "log_rank_commutation_distance": 0.2600748368360458,
+      "log_rank_commutation_distance": 0.21563121859490772,
       "pair_id": 1,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.15473319496170002,
+      "log_rank_commutation_distance": 0.0857387678176991,
       "pair_id": 2,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.16139919574912012,
+      "log_rank_commutation_distance": 0.18592197460922208,
       "pair_id": 2,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.19433768079873692,
+      "log_rank_commutation_distance": 0.18882982878856314,
       "pair_id": 2,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.10367091503263172,
+      "log_rank_commutation_distance": 0.07627203276034031,
       "pair_id": 2,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.13675345578835355,
+      "log_rank_commutation_distance": 0.14282784540596707,
       "pair_id": 2,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.18171695966877205,
+      "log_rank_commutation_distance": 0.17532859115736973,
       "pair_id": 2,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.12288288575007468,
+      "log_rank_commutation_distance": 0.11261633067807097,
       "pair_id": 3,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.08852353982457288,
+      "log_rank_commutation_distance": 0.14058635910324302,
       "pair_id": 3,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.18695376864270888,
+      "log_rank_commutation_distance": 0.1277677867078875,
       "pair_id": 3,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.24592104291433195,
+      "log_rank_commutation_distance": 0.15260319383102308,
       "pair_id": 3,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.16267157529261284,
+      "log_rank_commutation_distance": 0.11140583251714786,
       "pair_id": 3,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps.",
-      "key_k": "The quick brow fox jumps",
-      "log_rank_commutation_distance": 0.26648473792994015,
+      "log_rank_commutation_distance": 0.1972072233071975,
       "pair_id": 3,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.10698318123003135,
+      "log_rank_commutation_distance": 0.14736981337867833,
       "pair_id": 4,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.3232304337073103,
+      "log_rank_commutation_distance": 0.13778757922954837,
       "pair_id": 4,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.23106827899306912,
+      "log_rank_commutation_distance": 0.09255727254920447,
       "pair_id": 4,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.1940753094111697,
+      "log_rank_commutation_distance": 0.17375807837367252,
       "pair_id": 4,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.2556021595213409,
+      "log_rank_commutation_distance": 0.16026780417729147,
       "pair_id": 4,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.2071066122300239,
+      "log_rank_commutation_distance": 0.24397924887752362,
       "pair_id": 4,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.33222789082862364,
+      "log_rank_commutation_distance": 0.06156018333804446,
       "pair_id": 5,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.12534392774259215,
+      "log_rank_commutation_distance": 0.0773672233202408,
       "pair_id": 5,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.22184614023785584,
+      "log_rank_commutation_distance": 0.1649158516610479,
       "pair_id": 5,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.16149379013153142,
+      "log_rank_commutation_distance": 0.09738718416438266,
       "pair_id": 5,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.22951910394885924,
+      "log_rank_commutation_distance": 0.11860836705252657,
       "pair_id": 5,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Flour is cheap",
-      "log_rank_commutation_distance": 0.060469557943368085,
+      "log_rank_commutation_distance": 0.18119480164415724,
       "pair_id": 5,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.13112932796120597,
+      "log_rank_commutation_distance": 0.10107823963439885,
       "pair_id": 6,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.09962216312075763,
+      "log_rank_commutation_distance": 0.2783299520522298,
       "pair_id": 6,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.13436752098530758,
+      "log_rank_commutation_distance": 0.08455189910771478,
       "pair_id": 6,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.26133679242174096,
+      "log_rank_commutation_distance": 0.1546801658294618,
       "pair_id": 6,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.21306456782838423,
+      "log_rank_commutation_distance": 0.17693267226675247,
       "pair_id": 6,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brow fox jumps",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.1086736404735916,
+      "log_rank_commutation_distance": 0.2404134009621394,
       "pair_id": 6,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.22864804792453355,
+      "log_rank_commutation_distance": 0.09842738073842913,
       "pair_id": 7,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.09223327896667738,
+      "log_rank_commutation_distance": 0.2432049278356462,
       "pair_id": 7,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.1229880219761476,
+      "log_rank_commutation_distance": 0.18010741033728647,
       "pair_id": 7,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.1760773612683453,
+      "log_rank_commutation_distance": 0.19381644963503056,
       "pair_id": 7,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.10491016939271228,
+      "log_rank_commutation_distance": 0.1691068541781859,
       "pair_id": 7,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Write about baking bred.",
-      "key_k": "Talk about animals in a forest.",
-      "log_rank_commutation_distance": 0.0909620007701281,
+      "log_rank_commutation_distance": 0.16364397028230088,
       "pair_id": 7,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.2098815008557056,
+      "log_rank_commutation_distance": 0.22031052810591606,
       "pair_id": 8,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.21908428777113811,
+      "log_rank_commutation_distance": 0.2098646923070728,
       "pair_id": 8,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.18397051317757993,
+      "log_rank_commutation_distance": 0.244301531856536,
       "pair_id": 8,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.20634921514876178,
+      "log_rank_commutation_distance": 0.22612628412868233,
       "pair_id": 8,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.17155609170046673,
+      "log_rank_commutation_distance": 0.07333642908554658,
       "pair_id": 8,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread.",
-      "log_rank_commutation_distance": 0.17576254669492233,
+      "log_rank_commutation_distance": 0.1624913498780421,
       "pair_id": 8,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.27346734670658623,
+      "log_rank_commutation_distance": 0.1050113553870956,
       "pair_id": 9,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.3163164945615718,
+      "log_rank_commutation_distance": 0.16840231913556147,
       "pair_id": 9,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.1304820796026385,
+      "log_rank_commutation_distance": 0.20437982120380074,
       "pair_id": 9,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.1626431562498456,
+      "log_rank_commutation_distance": 0.2736470442886348,
       "pair_id": 9,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.18455798315273408,
+      "log_rank_commutation_distance": 0.1547875878509652,
       "pair_id": 9,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jump.",
-      "key_k": "A wooden barrel sits in a cellar",
-      "log_rank_commutation_distance": 0.16946902608319356,
+      "log_rank_commutation_distance": 0.21930931765993414,
       "pair_id": 9,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.20128118545281384,
+      "log_rank_commutation_distance": 0.2264535078078312,
       "pair_id": 10,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.35284597304816606,
+      "log_rank_commutation_distance": 0.060468886083270564,
       "pair_id": 10,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.2805473222194027,
+      "log_rank_commutation_distance": 0.19583817631602565,
       "pair_id": 10,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.05608118865502882,
+      "log_rank_commutation_distance": 0.19974454624587826,
       "pair_id": 10,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.18022630806926448,
+      "log_rank_commutation_distance": 0.10797917744253849,
       "pair_id": 10,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "A wooden barrel sits in a cellar",
-      "key_k": "Write a neutral product description.",
-      "log_rank_commutation_distance": 0.16146616966220384,
+      "log_rank_commutation_distance": 0.17475524237517398,
       "pair_id": 10,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.10004986860868978,
+      "log_rank_commutation_distance": 0.06845529874964722,
       "pair_id": 11,
-      "payload_id": 0,
-      "rank_length": 4
+      "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.1140759661796516,
+      "log_rank_commutation_distance": 0.20336162891181075,
       "pair_id": 11,
-      "payload_id": 1,
-      "rank_length": 6
+      "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.2482130018050792,
+      "log_rank_commutation_distance": 0.206465221334881,
       "pair_id": 11,
-      "payload_id": 2,
-      "rank_length": 6
+      "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.08746948026578595,
+      "log_rank_commutation_distance": 0.17495049887010056,
       "pair_id": 11,
-      "payload_id": 3,
-      "rank_length": 7
+      "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.15272325771454268,
+      "log_rank_commutation_distance": 0.19934034154744315,
       "pair_id": 11,
-      "payload_id": 4,
-      "rank_length": 9
+      "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "key_h": "The quick brown fox jumps!",
-      "key_k": "Describe a quiet mountain village.",
-      "log_rank_commutation_distance": 0.10642126178612862,
+      "log_rank_commutation_distance": 0.1482718366410935,
       "pair_id": 11,
-      "payload_id": 5,
-      "rank_length": 8
+      "payload_id": 5
     }
   ]
 }

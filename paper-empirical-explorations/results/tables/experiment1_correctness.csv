@@ -1,17 +1,14 @@
-case_id,payload_id,key_id,payload_text,key_text,payload_token_length,decode_exact_token_match,reverse_exact_token_match,display_string_match,first_mismatch_position,stegotext_text,decoded_text,ranks
-0,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,7,True,True,True,,Pressed backwards/extension of fingers to, A quiet river crossed the valley.,"[99353, 662, 72, 684, 1, 8, 4]"
-1,7,2,The device stopped working after midnight.,Talk about animals in a forest.,7,True,True,True,,"""/>.</gtk_item>
+case_id,payload_id,key_id,payload_category,payload_text,key_text,payload_token_length,decode_exact_token_match,reverse_exact_token_match,display_string_match,first_mismatch_position,stegotext_text,decoded_text,decode_success_rate,decode_wilson95_low,decode_wilson95_high,reverse_success_rate,reverse_wilson95_low,reverse_wilson95_high
+0,6,18,factual sentence,The archive contains several old records.,Explain a baseball practice.,7,True,True,True,, leží astute to show what I, The archive contains several old records.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+1,4,21,longer sentence,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,9,True,True,True,,"ósitoth, please retrieve a batto the", The lab notebook was hidden in the cabinet.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+2,7,12,repeated simple payload,The device stopped working after midnight.,Talk about animals in a forest.,7,True,True,True,,"""/>.</gtk_item>
 ``”
 
-This", The device stopped working after midnight.,"[89803, 729, 533, 1, 1, 354, 1]"
-2,2,2,The current policy has failed.,Talk about animals in a forest.,6,True,True,True,,"""/>.</summary.)
-
-
-
-<hint hint", The current policy has failed.,"[89803, 40, 102, 7, 9, 3]"
-3,0,3,Switzerland is expensive.,Explain a baseball practice.,4,True,True,True,,	connection with position players, Switzerland is expensive.,"[74364, 3, 435, 2]"
-4,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,6,True,True,True,,WIDTH N... Show all , The meeting starts after lunch.,"[89803, 282, 33, 17, 4, 2]"
-5,7,7,The device stopped working after midnight.,The quick brow fox jumps,7,True,True,True,,"음을 Translate INTO English
-Ready to", The device stopped working after midnight.,"[89803, 729, 533, 1, 1, 354, 1]"
-6,4,4,The lab notebook was hidden in the cabinet.,Describe ancient Roman roads.,9,True,True,True,,WIDTH COM: Roman War Road. Learn more, The lab notebook was hidden in the cabinet.,"[89803, 1345, 36, 9, 554, 2, 2, 30, 2]"
-7,5,3,A small bird landed near the window.,Explain a baseball practice.,8,True,True,True,,주의 Baseball sports / 2024., A small bird landed near the window.,"[99353, 9, 113, 32, 6, 1, 5, 2]"
+This", The device stopped working after midnight.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+3,4,30,longer sentence,The lab notebook was hidden in the cabinet.,Write a neutral product description.,9,True,True,True,,"<style product-text-style-item>
+    [product", The lab notebook was hidden in the cabinet.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+4,0,24,mundane natural language,Switzerland is expensive.,Describe ancient Roman roads.,4,True,True,True,,"rors, infrastructure and", Switzerland is expensive.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+5,5,9,mundane natural language,A small bird landed near the window.,Describe a quiet mountain topic.,8,True,True,True,,"-ring a solitary.
+Answer: a peaceful", A small bird landed near the window.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+6,1,19,factual sentence,The meeting starts after lunch.,xxplain a baseball practice.,6,True,True,True,,RESSED TREEM: I'll, The meeting starts after lunch.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0
+7,0,25,mundane natural language,Switzerland is expensive.,xescribe ancient Roman roads.,4,True,True,True,,"""]); The equation is", Switzerland is expensive.,1.0,0.6755924351161198,1.0,1.0,0.6755924351161198,1.0

@@ -1,0 +1,25 @@
+case_id,class,payload_id,key_id,payload_text,key_text,comparison_distribution,token_length,normalized_nll,mean_log_rank,max_log_rank,generated_text,ranks,tail_rank_fraction_gt_10,tail_rank_fraction_gt_100,tail_rank_fraction_gt_1000
+0,CARTS,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,CARTS E_k(x),7,7.697680141695089,4.6102942770250275,11.506434443799858,Pressed backwards/extension of fingers to,"[99353, 662, 72, 684, 1, 8, 4]",0.5714285714285714,0.42857142857142855,0.14285714285714285
+0,ordinary,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,ordinary greedy Q_k,7,0.9962059602768333,0.0,0.0, What do you see? What do,"[1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+1,CARTS,7,2,The device stopped working after midnight.,Talk about animals in a forest.,CARTS E_k(x),7,8.265000435388975,4.306409390087561,11.405373661304653,"""/>.</gtk_item>
+``”
+
+This","[89803, 729, 533, 1, 1, 354, 1]",0.5714285714285714,0.5714285714285714,0.14285714285714285
+1,ordinary,7,2,The device stopped working after midnight.,Talk about animals in a forest.,ordinary greedy Q_k,7,0.9962059602768333,0.0,0.0, What do you see? What do,"[1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+2,CARTS,2,2,The current policy has failed.,Talk about animals in a forest.,CARTS E_k(x),6,8.789795190868723,4.16016215729375,11.405373661304653,"""/>.</summary.)
+
+
+
+<hint hint","[89803, 40, 102, 7, 9, 3]",0.5,0.3333333333333333,0.16666666666666666
+2,ordinary,2,2,The current policy has failed.,Talk about animals in a forest.,ordinary greedy Q_k,6,1.1296469076290394,0.0,0.0, What do you see? What,"[1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+3,CARTS,0,3,Switzerland is expensive.,Explain a baseball practice.,CARTS E_k(x),4,7.849958481644033,4.770958183266711,11.216727232750108,	connection with position players,"[74364, 3, 435, 2]",0.5,0.5,0.25
+3,ordinary,0,3,Switzerland is expensive.,Explain a baseball practice.,ordinary greedy Q_k,4,1.0250203621680516,0.0,0.0, What are some of,"[1, 1, 1, 1]",0.0,0.0,0.0
+4,CARTS,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,CARTS E_k(x),6,7.417050527442822,4.242740529907549,11.405373661304653,WIDTH N... Show all ,"[89803, 282, 33, 17, 4, 2]",0.6666666666666666,0.3333333333333333,0.16666666666666666
+4,ordinary,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,ordinary greedy Q_k,6,1.0032982347658033,0.0,0.0, The Romans built an extensive network,"[1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+5,CARTS,7,7,The device stopped working after midnight.,The quick brow fox jumps,CARTS E_k(x),7,7.562398852944519,4.306409390087561,11.405373661304653,"음을 Translate INTO English
+Ready to","[89803, 729, 533, 1, 1, 354, 1]",0.5714285714285714,0.5714285714285714,0.14285714285714285
+5,ordinary,7,7,The device stopped working after midnight.,The quick brow fox jumps,ordinary greedy Q_k,7,0.49402088714265446,0.0,0.0, over the lazy dog. The quick,"[1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+6,CARTS,4,4,The lab notebook was hidden in the cabinet.,Describe ancient Roman roads.,CARTS E_k(x),9,7.101467286152033,4.0208966754691335,11.405373661304653,WIDTH COM: Roman War Road. Learn more,"[89803, 1345, 36, 9, 554, 2, 2, 30, 2]",0.5555555555555556,0.3333333333333333,0.2222222222222222
+6,ordinary,4,4,The lab notebook was hidden in the cabinet.,Describe ancient Roman roads.,ordinary greedy Q_k,9,0.757591778697699,0.0,0.0, The Romans built an extensive network of roads throughout,"[1, 1, 1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+7,CARTS,5,3,A small bird landed near the window.,Explain a baseball practice.,CARTS E_k(x),8,6.015916074013107,3.248890913108781,11.506434443799858,주의 Baseball sports / 2024.,"[99353, 9, 113, 32, 6, 1, 5, 2]",0.375,0.25,0.125
+7,ordinary,5,3,A small bird landed near the window.,Explain a baseball practice.,ordinary greedy Q_k,8,0.7939984613054012,0.0,0.0, What are some of the drills and exercises,"[1, 1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0

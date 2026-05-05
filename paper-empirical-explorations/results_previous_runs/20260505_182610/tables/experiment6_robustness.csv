@@ -1,0 +1,61 @@
+case_id,payload_id,key_id,payload_text,key_text,perturbation_type,perturbation_position,token_length,decoded_token_edit_distance,normalized_decoded_token_edit_distance,first_mismatch_position,suffix_corruption_fraction,original_stegotext,perturbed_stegotext,decoded_original,decoded_perturbed
+0,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,random_token_substitution,3,7,4,0.5714285714285714,3,1.0,Pressed backwards/extension of fingers to,Pressed backwards/ Welcome of fingers to, A quiet river crossed the valley.," A quiet river Nin:
+Slow flows"
+0,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,nearby_rank_substitution,4,7,3,0.42857142857142855,4,1.0,Pressed backwards/extension of fingers to,Pressed backwards/extension: fingers to, A quiet river crossed the valley., A quiet river crossed by great arch
+0,3,2,A quiet river crossed the valley.,Talk about animals in a forest.,adjacent_token_transposition,5,7,2,0.2857142857142857,5,1.0,Pressed backwards/extension of fingers to,Pressed backwards/extension of to fingers, A quiet river crossed the valley., A quiet river crossed the `my
+1,7,2,The device stopped working after midnight.,Talk about animals in a forest.,random_token_substitution,6,7,1,0.14285714285714285,6,1.0,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtk_item>
+``”
+
+ senior", The device stopped working after midnight., The device stopped working after midnight reluctant
+1,7,2,The device stopped working after midnight.,Talk about animals in a forest.,nearby_rank_substitution,3,7,4,0.5714285714285714,3,1.0,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtk_item>```”
+
+This", The device stopped working after midnight.," The device stopped responding 
+
+while ("
+1,7,2,The device stopped working after midnight.,Talk about animals in a forest.,adjacent_token_transposition,3,7,4,0.5714285714285714,3,1.0,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtk_item``>
+”
+
+This", The device stopped working after midnight., The device stopped (the Volume Down
+2,2,2,The current policy has failed.,Talk about animals in a forest.,random_token_substitution,2,6,4,0.6666666666666666,2,1.0,"""/>.</summary.)
+
+
+
+<hint hint","""/>.</summaryossil<hint hint", The current policy has failed., The current temps.gov weather prediction
+2,2,2,The current policy has failed.,Talk about animals in a forest.,nearby_rank_substitution,2,6,4,0.6666666666666666,2,1.0,"""/>.</summary.)
+
+
+
+<hint hint","""/>.</summaryCompatActivity<hint hint", The current policy has failed.," The current location percent: {"""
+2,2,2,The current policy has failed.,Talk about animals in a forest.,adjacent_token_transposition,4,6,2,0.3333333333333333,4,1.0,"""/>.</summary.)
+
+
+
+<hint hint","""/>.</summary.)
+
+
+
+<h hintint", The current policy has failed., The current policy has Improved Trust
+3,0,3,Switzerland is expensive.,Explain a baseball practice.,random_token_substitution,2,4,2,0.5,2,1.0,	connection with position players,	connection with ideal players, Switzerland is expensive., Switzerland isnota common
+3,0,3,Switzerland is expensive.,Explain a baseball practice.,nearby_rank_substitution,3,4,1,0.25,3,1.0,	connection with position players,	connection with position., Switzerland is expensive., Switzerland is expensive and
+3,0,3,Switzerland is expensive.,Explain a baseball practice.,adjacent_token_transposition,0,4,4,1.0,0,1.0,	connection with position players, with	connection position players, Switzerland is expensive.,Land密码 Dropbox连接
+4,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,random_token_substitution,0,6,6,1.0,0,1.0,WIDTH N... Show all ,.span N... Show all , The meeting starts after lunch.,ellidos_Firstnº_Year
+4,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,nearby_rank_substitution,0,6,6,1.0,0,1.0,WIDTH N... Show all ,Rand N... Show all , The meeting starts after lunch.,"ifestyles advertising targets homeowners, home"
+4,1,4,The meeting starts after lunch.,Describe ancient Roman roads.,adjacent_token_transposition,4,6,2,0.3333333333333333,4,1.0,WIDTH N... Show all ,WIDTH N... Show  all, The meeting starts after lunch., The meeting starts after one-day
+5,7,7,The device stopped working after midnight.,The quick brow fox jumps,random_token_substitution,5,7,2,0.2857142857142857,5,1.0,"음을 Translate INTO English
+Ready to","음을 Translate INTO English
+=m to", The device stopped working after midnight., The device stopped working afterenumcing
+5,7,7,The device stopped working after midnight.,The quick brow fox jumps,nearby_rank_substitution,5,7,2,0.2857142857142857,5,1.0,"음을 Translate INTO English
+Ready to","음을 Translate INTO English
+ to", The device stopped working after midnight., The device stopped working after Vakedirs
+5,7,7,The device stopped working after midnight.,The quick brow fox jumps,adjacent_token_transposition,0,7,7,1.0,0,1.0,"음을 Translate INTO English
+Ready to"," Translate음을 INTO English
+Ready to", The device stopped working after midnight.,.alignuggest access to the intellectual property

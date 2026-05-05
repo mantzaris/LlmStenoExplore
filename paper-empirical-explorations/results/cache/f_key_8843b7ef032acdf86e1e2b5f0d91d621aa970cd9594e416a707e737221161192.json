@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    100079,
+    3636,
+    353,
+    311,
+    387,
+    1511,
+    311,
+    1515
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Talk about animals in a topic.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    106622,
+    5,
+    198,
+    110,
+    2,
+    1,
+    6,
+    2
+  ],
+  "secret_prefix": ""
+}

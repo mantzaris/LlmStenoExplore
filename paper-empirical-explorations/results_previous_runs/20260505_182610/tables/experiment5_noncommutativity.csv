@@ -1,0 +1,13 @@
+pair_id,key_k,key_h,sampled_commutation_rate,mean_log_rank_commutation_distance,num_payloads
+0,The quick brown fox jumps,The quick brow fox jumps,0.0,0.19124198578713378,6
+1,Explain a baseball practice.,The quick brow fox jumps,0.0,0.2077957775948909,6
+2,Write about baking bread.,The quick brown fox jumps!,0.0,0.1554352336665524,6
+3,The quick brow fox jumps,The quick brown fox jumps.,0.0,0.17890625839237356,6
+4,Describe a quiet mountain village.,The quick brow fox jumps,0.0,0.2196776625154909,6
+5,Flour is cheap,Write about baking bred.,0.0,0.18848340180547174,6
+6,Write about baking bread.,The quick brow fox jumps,0.0,0.15803233546516465,6
+7,Talk about animals in a forest.,Write about baking bred.,0.0,0.1359698133830907,6
+8,Write about baking bread.,Talk about animals in a forest.,0.0,0.19443402589142908,6
+9,A wooden barrel sits in a cellar,The quick brown fox jump.,0.0,0.20615601439276163,6
+10,Write a neutral product description.,A wooden barrel sits in a cellar,0.0,0.2054080245178133,6
+11,Describe a quiet mountain village.,The quick brown fox jumps!,0.0,0.1348254727266463,6

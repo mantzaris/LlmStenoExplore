@@ -1,37 +1,5 @@
 {
-  "K_adm": [
-    "Write about baking bread.",
-    "Describe a quiet mountain village.",
-    "Talk about animals in a forest.",
-    "Explain a baseball practice.",
-    "Describe ancient Roman roads.",
-    "Write a neutral product description.",
-    "The quick brown fox jumps",
-    "The quick brow fox jumps",
-    "Flour is cheap",
-    "A wooden barrel sits in a cellar",
-    "The quick brown fox jumps.",
-    "The quick brown fox jump.",
-    "The quick brown fox jumps!",
-    "Write about baking bred.",
-    "Write about baking bread",
-    "Describe a quiet mountain villlage.",
-    "Write a short note about coffee.",
-    "Write a short note about rain.",
-    "Write a short note about old books.",
-    "Write a short note about a train station.",
-    "Write a short note about garden tools.",
-    "Describe coffee in plain language.",
-    "Describe rain in plain language.",
-    "Describe old books in plain language.",
-    "Describe a train station in plain language.",
-    "Describe garden tools in plain language.",
-    "Explain a scene involving coffee.",
-    "Explain a scene involving rain.",
-    "Explain a scene involving old books.",
-    "Explain a scene involving a train station.",
-    "Explain a scene involving garden tools."
-  ],
+  "K_adm_size": 31,
   "collision_pairs": [],
   "rows": [
     {
@@ -39,6 +7,9 @@
         "Write about baking bread."
       ],
       "case_id": 0,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -46,21 +17,21 @@
       "payload_id": 0,
       "payload_text": "Switzerland is expensive.",
       "rank_length": 4,
-      "search_elapsed_seconds": 98.79548505599996,
-      "target_w": [
-        19671,
-        1,
-        1047,
-        1
-      ],
+      "search_elapsed_seconds": 79.15670463800052,
       "true_key": "Write about baking bread.",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     },
     {
       "candidate_keys": [
-        "Describe a quiet mountain village."
+        "xrite about baking bread."
       ],
       "case_id": 1,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -68,23 +39,21 @@
       "payload_id": 1,
       "payload_text": "The meeting starts after lunch.",
       "rank_length": 6,
-      "search_elapsed_seconds": 135.51734071900046,
-      "target_w": [
-        56699,
-        391,
-        35,
-        40,
-        3,
-        16
-      ],
-      "true_key": "Describe a quiet mountain village.",
+      "search_elapsed_seconds": 96.89283111299846,
+      "true_key": "xrite about baking bread.",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     },
     {
       "candidate_keys": [
-        "Talk about animals in a forest."
+        "Write about baking"
       ],
       "case_id": 2,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -92,23 +61,21 @@
       "payload_id": 2,
       "payload_text": "The current policy has failed.",
       "rank_length": 6,
-      "search_elapsed_seconds": 135.71765975200015,
-      "target_w": [
-        118414,
-        70,
-        112,
-        26,
-        11,
-        10
-      ],
-      "true_key": "Talk about animals in a forest.",
+      "search_elapsed_seconds": 103.28824697799973,
+      "true_key": "Write about baking",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     },
     {
       "candidate_keys": [
-        "Explain a baseball practice."
+        "Write about baking topic."
       ],
       "case_id": 3,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -116,24 +83,21 @@
       "payload_id": 3,
       "payload_text": "A quiet river crossed the valley.",
       "rank_length": 7,
-      "search_elapsed_seconds": 151.6513344039995,
-      "target_w": [
-        104032,
-        2975,
-        12,
-        1047,
-        1,
-        795,
-        1
-      ],
-      "true_key": "Explain a baseball practice.",
+      "search_elapsed_seconds": 111.36483920699902,
+      "true_key": "Write about baking topic.",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     },
     {
       "candidate_keys": [
-        "Describe ancient Roman roads."
+        "Write about baking bread.s"
       ],
       "case_id": 4,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -141,26 +105,21 @@
       "payload_id": 4,
       "payload_text": "The lab notebook was hidden in the cabinet.",
       "rank_length": 9,
-      "search_elapsed_seconds": 189.09563645099934,
-      "target_w": [
-        29436,
-        1315,
-        77,
-        6665,
-        497,
-        301,
-        24,
-        1066,
-        2
-      ],
-      "true_key": "Describe ancient Roman roads.",
+      "search_elapsed_seconds": 141.99962872700053,
+      "true_key": "Write about baking bread.s",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     },
     {
       "candidate_keys": [
-        "Write a neutral product description."
+        "Write about baking bread!"
       ],
       "case_id": 5,
+      "collision_rate": 0.0,
+      "collision_wilson95_high": 0.3903342879021653,
+      "collision_wilson95_low": 2.7755575615628914e-17,
       "collisions_verified_without_cache": true,
       "f_evaluations": 31,
       "fiber_size": 1,
@@ -168,18 +127,11 @@
       "payload_id": 5,
       "payload_text": "A small bird landed near the window.",
       "rank_length": 8,
-      "search_elapsed_seconds": 170.37311368100018,
-      "target_w": [
-        14463,
-        14,
-        8061,
-        55,
-        6,
-        1,
-        797,
-        3
-      ],
-      "true_key": "Write a neutral product description.",
+      "search_elapsed_seconds": 132.47426944899962,
+      "true_key": "Write about baking bread!",
+      "true_key_containment_rate": 1.0,
+      "true_key_containment_wilson95_high": 1.0,
+      "true_key_containment_wilson95_low": 0.6096657120978346,
       "true_key_in_candidates": true
     }
   ]

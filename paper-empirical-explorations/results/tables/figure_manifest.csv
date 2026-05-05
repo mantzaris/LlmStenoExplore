@@ -1,18 +1,18 @@
 figure_file,experiment,caption_suggestion,paper_claim_supported
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp1_correctness_bar.png,Experiment 1,Exact token-id recovery rates for decode and reverse directions.,Exact invertibility on tested samples.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp2_nll_boxplot.png,Experiment 2,Normalized NLL under the key context for CARTS and ordinary greedy comparison text.,Rank-likelihood behavior under Q_k.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp2_mean_log_rank_cdf.png,Experiment 2,Empirical CDF of mean log-rank for CARTS and ordinary comparison traces.,Rank-trace distribution shift under Q_k.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp2_tail_rank_vs_nll.png,Experiment 2,Tail-rank fraction versus normalized NLL for CARTS and ordinary traces.,Rank pressure and likelihood relationship.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp2_positionwise_mean_log_rank_heatmap.png,Experiment 2,Position-wise mean log-rank for CARTS and ordinary comparison traces.,Position-wise rank pressure.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp2_detector_roc.png,Experiment 2,ROC curve for a simple detector trained on rank and likelihood features.,Simple detectability under this comparison distribution.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp3_fiber_size_histogram.png,Experiment 3,Histogram of finite candidate fiber sizes.,Finite key-collision fiber census.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp3_unique_vs_collision_bar.png,Experiment 3,Fraction of unique and colliding finite-key transcripts.,Finite collision frequency.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp3_search_time_vs_keyset_size.png,Experiment 3,Number of F evaluations required by exhaustive finite key search.,Finite context-search cost.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp4_candidate_set_size_vs_transcripts.png,Experiment 4,Candidate key set size after accumulating exact transcripts.,Multi-transcript candidate shrinkage.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp5_commutation_rate_histogram.png,Experiment 5,Histogram of sampled exact commutation rates for key pairs.,Non-commutativity in tested key pairs.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp5_commutation_distance_cdf.png,Experiment 5,Empirical CDF of metric commutation distances.,Metric non-commutativity in tested key pairs.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp5_commutation_heatmap.png,Experiment 5,Heatmap of sampled commutation rates among displayed keys.,Pairwise non-commutativity structure.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp5_Nk_tau_curve.png,Experiment 5,Average number of key partners below a metric commutation threshold.,Related-instance threshold behavior.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp6_decoded_edit_distance_by_perturbation.png,Experiment 6,Decoded token edit distance by length-preserving perturbation type.,Perturbation brittleness.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp6_perturb_position_vs_error_heatmap.png,Experiment 6,Mean suffix corruption fraction by perturbation type and position.,Error propagation after perturbation.
-/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures/exp6_token_agreement_after_perturbation.png,Experiment 6,Average decoded token agreement after the perturbation position.,Error propagation after perturbation.
+results/figures/exp1_correctness_bar.png,Experiment 1,Exact token-id recovery rates for decode and reverse directions.,Exact invertibility on tested samples.
+results/figures/exp2_nll_boxplot.png,Experiment 2,"Normalized NLL for CARTS, greedy, and sampled ordinary comparisons.",Rank-likelihood behavior under comparison distributions.
+results/figures/exp2_mean_log_rank_cdf.png,Experiment 2,"Mean log-rank CDF for CARTS, greedy, and sampled traces.",Rank-trace distribution shift.
+results/figures/exp2_tail_rank_vs_nll.png,Experiment 2,Tail-rank fraction versus normalized NLL by distribution type.,Rank pressure and likelihood relationship.
+results/figures/exp2_positionwise_mean_log_rank_heatmap.png,Experiment 2,Position-wise mean log-rank for CARTS and ordinary baselines.,Position-wise rank pressure.
+results/figures/exp2_detector_roc.png,Experiment 2,ROC curves for CARTS versus greedy and sampled comparison distributions.,Distribution-specific simple detectability.
+results/figures/exp3_fiber_size_histogram.png,Experiment 3,Histogram of finite candidate fiber sizes.,Finite key-collision fiber census.
+results/figures/exp3_unique_vs_collision_bar.png,Experiment 3,Fraction of unique and colliding finite-key transcripts.,Finite collision frequency.
+results/figures/exp3_search_time_vs_keyset_size.png,Experiment 3,Wall-clock exhaustive search time for each transcript at fixed K_adm size.,Finite context-search cost.
+results/figures/exp4_candidate_set_size_vs_transcripts.png,Experiment 4,Mean finite candidate key set size after accumulating transcripts.,Multi-transcript candidate shrinkage.
+results/figures/exp5_commutation_rate_histogram.png,Experiment 5,Histogram of sampled exact commutation rates.,Non-commutativity in tested key pairs.
+results/figures/exp5_commutation_distance_cdf.png,Experiment 5,Empirical CDF of mean metric commutation distances.,Metric non-commutativity in tested key pairs.
+results/figures/exp5_commutation_heatmap.png,Experiment 5,Heatmap of sampled commutation rates among displayed keys.,Pairwise non-commutativity structure.
+results/figures/exp5_Nk_tau_curve.png,Experiment 5,Average number of key partners below a commutation-distance threshold.,Related-instance threshold behavior.
+results/figures/exp6_decoded_edit_distance_by_perturbation.png,Experiment 6,Decoded token edit distance by length-preserving perturbation type.,Perturbation brittleness.
+results/figures/exp6_perturb_position_vs_error_heatmap.png,Experiment 6,Mean suffix corruption fraction by perturbation type and position.,Error propagation after perturbation.
+results/figures/exp6_token_agreement_after_perturbation.png,Experiment 6,Average decoded token agreement after the perturbation position.,Error propagation after perturbation.

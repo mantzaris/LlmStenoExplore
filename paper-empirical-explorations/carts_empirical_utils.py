@@ -15,8 +15,11 @@ import math
 import os
 import platform
 import random
+import shutil
+import subprocess
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
@@ -26,6 +29,7 @@ import numpy as np
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EXPERIMENT_ROOT = Path(__file__).resolve().parent
 RESULTS_DIR = EXPERIMENT_ROOT / "results"
+RESULTS_PREVIOUS_RUNS_DIR = EXPERIMENT_ROOT / "results_previous_runs"
 FIGURES_DIR = RESULTS_DIR / "figures"
 TABLES_DIR = RESULTS_DIR / "tables"
 TEXT_DIR = RESULTS_DIR / "text"
@@ -65,8 +69,59 @@ TOKENIZATION_CONVENTION = {
 
 def ensure_dirs() -> None:
     """Create the result directory tree used by the notebook."""
-    for path in [FIGURES_DIR, TABLES_DIR, TEXT_DIR, RAW_DIR, CACHE_DIR]:
+    for path in [
+        RESULTS_PREVIOUS_RUNS_DIR,
+        FIGURES_DIR,
+        TABLES_DIR,
+        TEXT_DIR,
+        RAW_DIR,
+        CACHE_DIR,
+    ]:
         path.mkdir(parents=True, exist_ok=True)
+
+
+def relative_path(path: Any, start: Path = EXPERIMENT_ROOT) -> str:
+    """Return a path relative to the empirical experiment directory when possible."""
+    path_obj = Path(path)
+    try:
+        return str(path_obj.resolve().relative_to(start.resolve()))
+    except Exception:
+        return str(path)
+
+
+def backup_results(timestamp: Optional[str] = None) -> Optional[Path]:
+    """Copy the current results tree to results_previous_runs/<timestamp>/."""
+    ensure_dirs()
+    if not RESULTS_DIR.exists():
+        return None
+    if timestamp is None:
+        timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S_utc")
+    backup_dir = RESULTS_PREVIOUS_RUNS_DIR / timestamp
+    backup_dir.mkdir(parents=True, exist_ok=False)
+    for item in RESULTS_DIR.iterdir():
+        destination = backup_dir / item.name
+        if item.is_dir():
+            shutil.copytree(item, destination)
+        else:
+            shutil.copy2(item, destination)
+    return backup_dir
+
+
+def clear_result_outputs(keep_cache: bool = True) -> None:
+    """Remove previous figures/tables/text/raw outputs before a rerun."""
+    ensure_dirs()
+    targets = [FIGURES_DIR, TABLES_DIR, TEXT_DIR, RAW_DIR]
+    if not keep_cache:
+        targets.append(CACHE_DIR)
+    for directory in targets:
+        if not directory.exists():
+            directory.mkdir(parents=True, exist_ok=True)
+            continue
+        for item in directory.iterdir():
+            if item.is_dir():
+                shutil.rmtree(item)
+            else:
+                item.unlink()
 
 
 def _call_or_value(obj: Any) -> Any:
@@ -304,11 +359,21 @@ def rank_of_token(
     token_id: int,
     admissible_token_ids: Optional[List[int]] = None,
 ) -> int:
-    sorted_ids = sorted_token_ids_from_logits(logits, admissible_token_ids)
-    matches = np.where(sorted_ids == int(token_id))[0]
-    if matches.size == 0:
+    """Return the 1-indexed deterministic rank of token_id.
+
+    This is equivalent to sorting by decreasing logit and increasing token id,
+    but avoids a full vocabulary sort when only one token's rank is needed.
+    """
+    scores = np.asarray(logits, dtype=np.float64)
+    token_id = int(token_id)
+    token_ids = _valid_admissible_ids(scores, admissible_token_ids)
+    if not np.any(token_ids == token_id):
         raise ValueError(f"Token id {token_id} is not admissible for this rank.")
-    return int(matches[0]) + 1
+    target_score = scores[token_id]
+    selected_scores = scores[token_ids]
+    higher = selected_scores > target_score
+    tied_smaller_id = (selected_scores == target_score) & (token_ids < token_id)
+    return int(np.count_nonzero(higher | tied_smaller_id)) + 1
 
 
 def token_at_rank(
@@ -336,10 +401,16 @@ def logprob_of_token(
     admissible_token_ids: Optional[List[int]] = None,
 ) -> float:
     scores = np.asarray(logits, dtype=np.float64)
-    token_ids = _valid_admissible_ids(scores, admissible_token_ids)
-    if int(token_id) not in set(map(int, token_ids.tolist())):
-        raise ValueError(f"Token id {token_id} is not admissible for logprob.")
-    denominator = _logsumexp(scores[token_ids])
+    token_id = int(token_id)
+    if admissible_token_ids is None:
+        if token_id < 0 or token_id >= len(scores):
+            raise ValueError(f"Token id {token_id} is outside the vocabulary.")
+        denominator = _logsumexp(scores)
+    else:
+        token_ids = _valid_admissible_ids(scores, admissible_token_ids)
+        if not np.any(token_ids == token_id):
+            raise ValueError(f"Token id {token_id} is not admissible for logprob.")
+        denominator = _logsumexp(scores[token_ids])
     return float(scores[int(token_id)] - denominator)
 
 
@@ -798,6 +869,90 @@ def normalized_nll(per_token_nll: Sequence[float]) -> float:
     return float(np.mean(np.asarray(per_token_nll, dtype=np.float64)))
 
 
+def wilson_interval(
+    successes: int,
+    total: int,
+    z: float = 1.959963984540054,
+) -> Tuple[float, float]:
+    """Wilson score interval for a binomial rate."""
+    successes = int(successes)
+    total = int(total)
+    if total <= 0:
+        return float("nan"), float("nan")
+    phat = successes / total
+    denom = 1.0 + (z * z / total)
+    center = (phat + (z * z) / (2.0 * total)) / denom
+    half_width = (
+        z
+        * math.sqrt((phat * (1.0 - phat) / total) + (z * z) / (4.0 * total * total))
+        / denom
+    )
+    return max(0.0, center - half_width), min(1.0, center + half_width)
+
+
+def proportion_row(prefix: str, successes: int, total: int) -> Dict[str, Any]:
+    """Return rate and Wilson CI fields with a stable prefix."""
+    low, high = wilson_interval(successes, total)
+    rate = successes / total if total else float("nan")
+    return {
+        f"{prefix}_successes": int(successes),
+        f"{prefix}_total": int(total),
+        f"{prefix}_rate": rate,
+        f"{prefix}_wilson95_low": low,
+        f"{prefix}_wilson95_high": high,
+    }
+
+
+def bootstrap_ci(
+    values: Sequence[float],
+    statistic=np.mean,
+    n_bootstrap: int = 1000,
+    seed: int = 123,
+    alpha: float = 0.05,
+) -> Tuple[float, float]:
+    """Simple percentile bootstrap confidence interval."""
+    arr = np.asarray(list(values), dtype=np.float64)
+    arr = arr[np.isfinite(arr)]
+    if len(arr) == 0:
+        return float("nan"), float("nan")
+    rng = np.random.default_rng(seed)
+    stats = []
+    for _ in range(int(n_bootstrap)):
+        sample = rng.choice(arr, size=len(arr), replace=True)
+        stats.append(float(statistic(sample)))
+    return (
+        float(np.quantile(stats, alpha / 2.0)),
+        float(np.quantile(stats, 1.0 - alpha / 2.0)),
+    )
+
+
+def bootstrap_auc_ci(
+    labels: Sequence[int],
+    scores: Sequence[float],
+    n_bootstrap: int = 1000,
+    seed: int = 123,
+    alpha: float = 0.05,
+) -> Tuple[float, float]:
+    """Bootstrap AUC CI, skipping resamples with one class."""
+    labels_arr = np.asarray(list(labels), dtype=np.int64)
+    scores_arr = np.asarray(list(scores), dtype=np.float64)
+    if len(labels_arr) == 0 or len(np.unique(labels_arr)) < 2:
+        return float("nan"), float("nan")
+    rng = np.random.default_rng(seed)
+    aucs: List[float] = []
+    for _ in range(int(n_bootstrap)):
+        idx = rng.integers(0, len(labels_arr), len(labels_arr))
+        if len(np.unique(labels_arr[idx])) < 2:
+            continue
+        aucs.append(roc_auc_score(labels_arr[idx].tolist(), scores_arr[idx].tolist()))
+    if not aucs:
+        return float("nan"), float("nan")
+    return (
+        float(np.quantile(aucs, alpha / 2.0)),
+        float(np.quantile(aucs, 1.0 - alpha / 2.0)),
+    )
+
+
 def first_mismatch_position(a: Sequence[Any], b: Sequence[Any]) -> Optional[int]:
     maximum = max(len(a), len(b))
     for idx in range(maximum):
@@ -1146,14 +1301,18 @@ def reset_summary(title: str = "CARTS Empirical Summary") -> None:
 
 def append_summary(section_title: str, markdown_text: str) -> None:
     ensure_dirs()
+    text = str(markdown_text).strip()
     with SUMMARY_PATH.open("a", encoding="utf-8") as handle:
         handle.write(f"\n## {section_title}\n\n")
-        handle.write(markdown_text.rstrip() + "\n")
+        if text:
+            handle.write(text + "\n\n")
+        else:
+            handle.write("\n")
 
 
 def _json_default(obj: Any) -> Any:
     if isinstance(obj, Path):
-        return str(obj)
+        return relative_path(obj)
     if isinstance(obj, np.ndarray):
         return obj.tolist()
     if isinstance(obj, (np.integer,)):
@@ -1168,12 +1327,37 @@ def _json_default(obj: Any) -> Any:
     return str(obj)
 
 
+def _clean_for_json(obj: Any) -> Any:
+    if isinstance(obj, dict):
+        return {str(key): _clean_for_json(value) for key, value in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_clean_for_json(value) for value in obj]
+    if isinstance(obj, Path):
+        return relative_path(obj)
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    if isinstance(obj, (np.integer,)):
+        return int(obj)
+    if isinstance(obj, (np.floating,)):
+        value = float(obj)
+        return None if math.isnan(value) or math.isinf(value) else value
+    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+        return None
+    if isinstance(obj, str):
+        # Keep ordinary strings unchanged. Convert only strings that are clearly
+        # absolute paths under this experiment tree.
+        if str(EXPERIMENT_ROOT) in obj:
+            return obj.replace(str(EXPERIMENT_ROOT) + "/", "")
+        return obj
+    return obj
+
+
 def write_json(path: Path, obj: Any) -> Path:
     ensure_dirs()
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
-        json.dump(obj, handle, indent=2, sort_keys=True, default=_json_default)
+        json.dump(_clean_for_json(obj), handle, indent=2, sort_keys=True, default=_json_default)
     return path
 
 
@@ -1188,7 +1372,10 @@ def write_jsonl(path: Path, rows: Iterable[Dict[str, Any]]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         for row in rows:
-            handle.write(json.dumps(row, sort_keys=True, default=_json_default) + "\n")
+            handle.write(
+                json.dumps(_clean_for_json(row), sort_keys=True, default=_json_default)
+                + "\n"
+            )
     return path
 
 
@@ -1202,22 +1389,33 @@ def _rows_and_fieldnames(rows: Sequence[Dict[str, Any]]) -> Tuple[List[Dict[str,
     return materialized, fieldnames
 
 
+def _clean_csv_value(value: Any) -> Any:
+    value = _clean_for_json(value)
+    if isinstance(value, (list, dict, tuple)):
+        return json.dumps(value, ensure_ascii=False, sort_keys=True, default=_json_default)
+    return value
+
+
 def write_csv(path: Path, rows: Sequence[Dict[str, Any]]) -> Path:
     ensure_dirs()
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     materialized, fieldnames = _rows_and_fieldnames(rows)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=fieldnames,
+            lineterminator="\n",
+            extrasaction="ignore",
+        )
         writer.writeheader()
-        for row in materialized:
-            clean_row = {
-                key: json.dumps(value, default=_json_default)
-                if isinstance(value, (list, dict, tuple))
-                else value
-                for key, value in row.items()
+        writer.writerows(
+            {
+                field: _clean_csv_value(row.get(field, ""))
+                for field in fieldnames
             }
-            writer.writerow(clean_row)
+            for row in materialized
+        )
     return path
 
 
@@ -1226,7 +1424,7 @@ def write_table(path: Path, dataframe_or_rows: Any) -> Path:
         ensure_dirs()
         path = Path(path)
         path.parent.mkdir(parents=True, exist_ok=True)
-        dataframe_or_rows.to_csv(path, index=False)
+        dataframe_or_rows.to_csv(path, index=False, lineterminator="\n", encoding="utf-8")
         return path
     return write_csv(path, list(dataframe_or_rows))
 
@@ -1253,24 +1451,77 @@ def environment_info() -> Dict[str, Any]:
     return info
 
 
+def git_commit_hash() -> Optional[str]:
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            cwd=REPO_ROOT,
+            check=True,
+            text=True,
+            capture_output=True,
+        )
+        return result.stdout.strip()
+    except Exception:
+        return None
+
+
 def save_manifest(config: Dict[str, Any], environment: Dict[str, Any]) -> Path:
     payload = {
         "config": config,
         "environment": environment,
         "paths": {
-            "repo_root": str(REPO_ROOT),
-            "experiment_root": str(EXPERIMENT_ROOT),
-            "results_dir": str(RESULTS_DIR),
-            "figures_dir": str(FIGURES_DIR),
-            "tables_dir": str(TABLES_DIR),
-            "text_dir": str(TEXT_DIR),
-            "raw_dir": str(RAW_DIR),
-            "cache_dir": str(CACHE_DIR),
+            "repo_root": "..",
+            "experiment_root": ".",
+            "results_dir": relative_path(RESULTS_DIR),
+            "figures_dir": relative_path(FIGURES_DIR),
+            "tables_dir": relative_path(TABLES_DIR),
+            "text_dir": relative_path(TEXT_DIR),
+            "raw_dir": relative_path(RAW_DIR),
+            "cache_dir": relative_path(CACHE_DIR),
         },
         "tokenization_convention": TOKENIZATION_CONVENTION,
+        "git_commit_hash": git_commit_hash(),
         "created_at_unix": time.time(),
+        "created_at_utc": datetime.now(timezone.utc).isoformat(),
     }
     return write_json(RAW_DIR / "run_config.json", payload)
+
+
+def write_run_manifest(
+    config: Dict[str, Any],
+    experiment_status: Dict[str, Any],
+    extra: Optional[Dict[str, Any]] = None,
+) -> Path:
+    """Write the required run-level manifest."""
+    model_key = config.get("model_key", "llama3_8b_q4_k_m")
+    model_info = MODEL_REGISTRY.get(model_key, {})
+    model_path = REPO_ROOT / model_info.get("path", "")
+    payload = {
+        "git_commit_hash": git_commit_hash(),
+        "date_time_utc": datetime.now(timezone.utc).isoformat(),
+        "model_path": model_info.get("path"),
+        "model_key": model_key,
+        "model_file_exists": model_path.exists(),
+        "n_ctx": config.get("n_ctx"),
+        "n_gpu_layers": config.get("n_gpu_layers"),
+        "n_threads": config.get("n_threads"),
+        "logits_all": True,
+        "random_seed": config.get("random_seed"),
+        "quick_mode": config.get("quick_mode"),
+        "configuration_profile_name": config.get("run_profile"),
+        "number_of_payloads": config.get("num_payloads"),
+        "number_of_keys": config.get("num_keys"),
+        "number_of_payload_key_pairs": config.get("num_payload_key_pairs"),
+        "number_of_collision_transcripts": config.get("num_collision_payloads"),
+        "size_of_finite_key_set_K_adm": config.get("k_adm_size"),
+        "number_of_noncommutativity_pairs": config.get("num_commutativity_pairs"),
+        "number_of_robustness_perturbations": config.get("num_robustness_perturbations"),
+        "comparison_distributions_used": config.get("comparison_distributions_used", []),
+        "experiment_status": experiment_status,
+    }
+    if extra:
+        payload.update(extra)
+    return write_json(RAW_DIR / "run_manifest.json", payload)
 
 
 def list_saved_figures() -> List[Path]:

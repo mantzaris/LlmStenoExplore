@@ -1,11 +1,32 @@
 key_id,category,text,context_ids,context_token_length
-0,cooking,Write about baking bread.,"[8144, 922, 28915, 16385, 13]",5
-1,travel,Describe a quiet mountain village.,"[75885, 264, 11594, 16700, 14458, 13]",6
-2,animals,Talk about animals in a forest.,"[37310, 922, 10099, 304, 264, 13952, 13]",7
-3,sports,Explain a baseball practice.,"[849, 21435, 264, 20075, 6725, 13]",6
-4,history,Describe ancient Roman roads.,"[75885, 14154, 13041, 19795, 13]",5
-5,neutral,Write a neutral product description.,"[8144, 264, 21277, 2027, 4096, 13]",6
-6,near duplicate,The quick brown fox jumps,"[791, 4062, 14198, 39935, 35308]",5
-7,near duplicate typo,The quick brow fox jumps,"[791, 4062, 60375, 39935, 35308]",5
-8,short cooking,Flour is cheap,"[3968, 414, 374, 12136]",4
-9,object scene,A wooden barrel sits in a cellar,"[32, 23162, 20929, 23874, 304, 264, 76875]",7
+0,admissible_key,Write about baking bread.,"[8144, 922, 28915, 16385, 13]",5
+1,admissible_key,xrite about baking bread.,"[87, 1269, 922, 28915, 16385, 13]",6
+2,admissible_key,Write about baking,"[8144, 922, 28915]",3
+3,admissible_key,Write about baking topic.,"[8144, 922, 28915, 8712, 13]",5
+4,admissible_key,Write about baking bread.s,"[8144, 922, 28915, 16385, 516]",5
+5,admissible_key,Write about baking bread!,"[8144, 922, 28915, 16385, 0]",5
+6,admissible_key,Describe a quiet mountain village.,"[75885, 264, 11594, 16700, 14458, 13]",6
+7,admissible_key,xescribe a quiet mountain village.,"[90774, 3191, 264, 11594, 16700, 14458, 13]",7
+8,admissible_key,Describe a quiet mountain,"[75885, 264, 11594, 16700]",4
+9,admissible_key,Describe a quiet mountain topic.,"[75885, 264, 11594, 16700, 8712, 13]",6
+10,admissible_key,Describe a quiet mountain villages.,"[75885, 264, 11594, 16700, 33889, 13]",6
+11,admissible_key,Describe a quiet mountain village!,"[75885, 264, 11594, 16700, 14458, 0]",6
+12,admissible_key,Talk about animals in a forest.,"[37310, 922, 10099, 304, 264, 13952, 13]",7
+13,admissible_key,xalk about animals in a forest.,"[87, 1727, 922, 10099, 304, 264, 13952, 13]",8
+14,admissible_key,Talk about animals in a,"[37310, 922, 10099, 304, 264]",5
+15,admissible_key,Talk about animals in a topic.,"[37310, 922, 10099, 304, 264, 8712, 13]",7
+16,admissible_key,Talk about animal in a forest.,"[37310, 922, 10065, 304, 264, 13952, 13]",7
+17,admissible_key,Talk about animals in a forest!,"[37310, 922, 10099, 304, 264, 13952, 0]",7
+18,admissible_key,Explain a baseball practice.,"[849, 21435, 264, 20075, 6725, 13]",6
+19,admissible_key,xxplain a baseball practice.,"[4239, 21435, 264, 20075, 6725, 13]",6
+20,admissible_key,Explain a baseball,"[849, 21435, 264, 20075]",4
+21,admissible_key,Explain a baseball topic.,"[849, 21435, 264, 20075, 8712, 13]",6
+22,admissible_key,Explain a baseball practice.s,"[849, 21435, 264, 20075, 6725, 516]",6
+23,admissible_key,Explain a baseball practice!,"[849, 21435, 264, 20075, 6725, 0]",6
+24,admissible_key,Describe ancient Roman roads.,"[75885, 14154, 13041, 19795, 13]",5
+25,admissible_key,xescribe ancient Roman roads.,"[90774, 3191, 14154, 13041, 19795, 13]",6
+26,admissible_key,Describe ancient Roman,"[75885, 14154, 13041]",3
+27,admissible_key,Describe ancient Roman topic.,"[75885, 14154, 13041, 8712, 13]",5
+28,admissible_key,Describe ancient Roman road.,"[75885, 14154, 13041, 5754, 13]",5
+29,admissible_key,Describe ancient Roman roads!,"[75885, 14154, 13041, 19795, 0]",5
+30,admissible_key,Write a neutral product description.,"[8144, 264, 21277, 2027, 4096, 13]",6

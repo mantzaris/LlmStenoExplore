@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    99954,
+    339,
+    11,
+    4587,
+    17622,
+    264,
+    16120,
+    998,
+    279
+  ],
+  "input_ranks": [
+    89803,
+    1345,
+    36,
+    9,
+    554,
+    2,
+    2,
+    30,
+    2
+  ],
+  "key_text": "Explain a baseball topic.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    119850,
+    950,
+    30,
+    254,
+    372,
+    4,
+    294,
+    136,
+    49
+  ],
+  "secret_prefix": ""
+}

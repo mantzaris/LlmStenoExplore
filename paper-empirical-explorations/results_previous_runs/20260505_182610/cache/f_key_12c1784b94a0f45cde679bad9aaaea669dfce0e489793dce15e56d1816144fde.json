@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    115883,
+    30556,
+    5736,
+    5159,
+    40822,
+    27171,
+    25,
+    358
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Write a short note about coffee.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    111355,
+    1186,
+    7031,
+    74,
+    19,
+    158,
+    16,
+    6
+  ],
+  "secret_prefix": ""
+}

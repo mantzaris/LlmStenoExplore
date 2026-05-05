@@ -1,45 +1,31 @@
 # CARTS empirical explorations
 
-This directory contains the empirical notebook and supporting utilities for a
-paper on CARTS: Contextual Autoregressive Rank Transcoding Steganography.
+This directory contains the empirical notebook and supporting utilities for a paper on CARTS: Contextual Autoregressive Rank Transcoding Steganography.
 
-The notebook runs six core experiments:
-
-1. Implementation correctness
-2. Rank-likelihood, rank-trace statistics, and simple detection
-3. Key-collision fiber census and finite key search
-4. Collision stability across new payloads
-5. Non-commutativity of key-induced maps
-6. Robustness to token perturbations
-
-The experiments are finite empirical checks under one model, tokenizer,
-payload sample, key sample, and comparison distribution. They do not prove
-steganographic security or insecurity.
+The current default model is Meta-Llama-3-8B-Instruct Q4_K_M GGUF through `llama-cpp-python`. The notebook does not silently switch to Phi-3.
 
 ## Files
 
-- `01_paper_empirical_experiments_llama8b.ipynb`: research notebook for the six
-  experiments.
-- `carts_empirical_utils.py`: token-id-level CARTS primitives, metrics, cache,
-  plotting helpers, and summary writers.
+- `01_paper_empirical_experiments_llama8b.ipynb`: research notebook for the six core experiments.
+- `carts_empirical_utils.py`: token-id-level CARTS primitives, metrics, cache, plotting helpers, CSV/JSON writers, confidence intervals, and run manifests.
 - `results/figures/`: generated PNG figures.
 - `results/tables/`: generated CSV tables and manifests.
 - `results/text/`: generated Markdown summaries.
-- `results/raw/`: raw JSON or JSONL result files.
+- `results/raw/`: raw JSON/JSONL result files and `run_manifest.json`.
 - `results/cache/`: disk cache for expensive `F_k(r)` computations.
+- `results_previous_runs/<timestamp>/`: backups of previous results.
 
 ## Required model
 
-The notebook defaults to Llama 3 8B:
+The main model path is:
 
 ```text
 models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf
 ```
 
-If this file is missing, the loader raises a clear error and stops. It does not
-silently fall back to Phi-3.
+If this file is missing, the loader raises a clear error and stops. Optional Phi-3 support exists only as a manual fallback in `MODEL_REGISTRY`.
 
-From the repository root, the model can be downloaded with:
+Download from the repository root with:
 
 ```bash
 python - << 'PY'
@@ -54,91 +40,107 @@ model_path = hf_hub_download(
     filename="Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
     local_dir=local_directory,
 )
-
 print("Downloaded model to:", model_path)
 PY
 ```
 
-Optional fallback support for Phi-3 exists in `MODEL_REGISTRY`, but the
-notebook configuration defaults to `llama3_8b_q4_k_m`.
+## Run profiles
 
-## How to run
+The notebook defines three profiles:
 
-From the repository root:
+- `smoke`: small CPU-safe validation run.
+- `paper_medium`: recommended paper rerun; default in the notebook.
+- `paper_full`: larger profile for explicit long runs only; do not run automatically.
+
+`paper_medium` uses 40 payloads, 120 finite keys, 80 correctness/detection pairs, 40 collision transcripts, 100 non-commutativity key pairs, and 40 robustness base cases. On CPU this can take many hours because full-vocabulary rank computations are repeated for `F_k(r)`. The cache in `results/cache/` lets interrupted or repeated runs resume many expensive map evaluations.
+
+To run the default paper profile from the repository root:
 
 ```bash
-jupyter lab paper-empirical-explorations/01_paper_empirical_experiments_llama8b.ipynb
+jupyter nbconvert --to notebook --execute --inplace \
+  paper-empirical-explorations/01_paper_empirical_experiments_llama8b.ipynb \
+  --ExecutePreprocessor.timeout=-1 \
+  --ExecutePreprocessor.kernel_name=calgacus-repl
 ```
 
-Then execute the notebook cell by cell. Run Section 5, the smoke test, before
-running the empirical experiments. If exact token recovery fails, stop and fix
-the implementation or environment mismatch before interpreting later results.
+To run the CPU-safe smoke profile without editing the notebook:
 
-## Runtime notes
+```bash
+CARTS_RUN_PROFILE=smoke jupyter nbconvert --to notebook --execute --inplace \
+  paper-empirical-explorations/01_paper_empirical_experiments_llama8b.ipynb \
+  --ExecutePreprocessor.timeout=-1 \
+  --ExecutePreprocessor.kernel_name=calgacus-repl
+```
 
-Defaults are CPU-friendly:
+Use the kernel that points at this repository virtualenv. On this machine that kernel is `calgacus-repl`.
 
-- `n_gpu_layers = 0`
-- `n_ctx = 4096`
-- `logits_all = True`
-- small payload/key samples
-- deterministic random seeds
+## Backups and reruns
 
-Full-vocabulary rank computation is expensive because every token rank is
-computed from the full logits vector. The cache in `results/cache/` stores
-expensive `F_k(r)` calls for repeated finite-key experiments.
+Before overwriting results, back up the previous run:
 
-To increase sample sizes, edit the `CONFIG` dictionary near the top of the
-notebook. Set `quick_mode=False` or increase individual fields such as
-`num_payload_key_pairs`, `num_collision_payloads`, and
-`num_commutativity_pairs`.
+```bash
+ts=$(date +%Y%m%d_%H%M%S)
+mkdir -p paper-empirical-explorations/results_previous_runs/$ts
+cp -a paper-empirical-explorations/results/. paper-empirical-explorations/results_previous_runs/$ts/
+```
 
-## Output locations
+The notebook clears `results/figures`, `results/tables`, `results/text`, and `results/raw` at the start of a run, while preserving `results/cache` by default. To force a fully cold run, clear `results/cache` manually after making a backup.
 
-Each experiment saves:
+## Experiments
 
-- CSV tables to `results/tables/`
-- raw JSON or JSONL to `results/raw/`
-- PNG plots to `results/figures/`
-- paper-ready Markdown summaries to `results/text/empirical_summary.md`
+1. Implementation correctness checks exact token-id recovery for `D_k(E_k(x)) = x` and reverse recovery on encoded stegotexts.
+2. Rank-likelihood and simple detection compares CARTS against `Q_greedy` and `Q_sampled`.
+3. Key-collision fiber census enumerates finite `K_adm` and searches for candidate fibers of `F_k(r)`.
+4. Collision stability runs only when collisions are found; candidate shrinkage always runs.
+5. Non-commutativity compares `F_k(F_h(r))` with `F_h(F_k(r))` on sampled rank vectors.
+6. Robustness applies length-preserving stegotext token perturbations and decodes the result.
 
-The notebook also writes:
+## Comparison distributions
 
+`Q_greedy` is ordinary greedy generation under the same key context and exact token length. It is useful as a deterministic baseline but is weak: rank traces are concentrated at rank 1.
+
+`Q_sampled` is ordinary stochastic generation under the same key context with temperature 0.8, top-p 0.95, fixed seed, and exact token length. It is a stronger baseline than greedy but still not a complete cover-channel model.
+
+Detector AUCs are distribution-specific. A high AUC means the tested CARTS outputs were separable from the chosen comparison distribution under the tested features; it is not a proof that CARTS is insecure.
+
+## Interpreting zero collisions
+
+If Experiment 3 reports zero collisions, use this wording:
+
+> No collisions were found under this finite key set and sample.
+
+Do not infer that collisions are impossible. The finite search says nothing conclusive about the unrestricted prompt space.
+
+## Outputs
+
+The run writes:
+
+- `results/text/empirical_summary.md`
+- `results/raw/run_manifest.json`
+- `results/raw/run_config.json`
 - `results/tables/figure_manifest.csv`
 - `results/tables/table_manifest.csv`
 - `results/tables/paper_verification_checklist.csv`
-- `results/raw/run_config.json`
+- one CSV and raw JSON file per experiment
+- PNG figures for each experiment
 
-## Experiment summary
+All manifest and summary paths are relative to `paper-empirical-explorations/`.
 
-Experiment 1 checks exact token-id round trips for `D_k(E_k(x)) = x` and the
-reverse direction on encoded stegotexts.
+## Syntax checks
 
-Experiment 2 compares CARTS rank/loss statistics with ordinary greedy
-generation under the same key context. The detector, when enabled, is only a
-simple empirical baseline under this comparison distribution.
+Run these after editing:
 
-Experiment 3 enumerates a finite admissible key set and measures candidate
-fiber sizes for `F_k(r)`.
-
-Experiment 4 tests whether discovered finite-key collisions persist on new
-payload rank vectors and measures candidate-set shrinkage across transcripts.
-
-Experiment 5 composes key-induced rank maps and measures sampled
-non-commutativity via exact equality and normalized log-rank distance.
-
-Experiment 6 applies length-preserving token perturbations to stegotexts and
-measures decoded errors.
+```bash
+python -m py_compile paper-empirical-explorations/carts_empirical_utils.py
+python -m compileall paper-empirical-explorations
+```
 
 ## Security caveat
 
-Use careful wording when reporting results:
+These experiments do not prove steganographic security, insecurity, or indistinguishability. Report results with careful qualifiers such as:
 
-- "under this model and tokenizer"
-- "under this finite key set"
-- "under this comparison distribution"
-- "no collision was found in the tested sample"
-- "this is not a proof of indistinguishability"
-
-The experiments are designed to support empirical claims in a paper, not to
-establish formal steganographic security.
+- under this model and tokenizer
+- under this finite key set
+- under this comparison distribution
+- no collision was found in the tested sample
+- this is not a proof of indistinguishability

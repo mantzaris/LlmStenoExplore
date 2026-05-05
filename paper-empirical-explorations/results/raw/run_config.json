@@ -1,6 +1,13 @@
 {
   "config": {
     "allow_failures": false,
+    "comparison_distributions_used": [
+      "carts",
+      "ordinary_greedy",
+      "ordinary_sampled"
+    ],
+    "detector_bootstrap_samples": 200,
+    "keep_cache_on_clear": true,
     "model_key": "llama3_8b_q4_k_m",
     "n_ctx": 4096,
     "n_gpu_layers": 0,
@@ -12,9 +19,13 @@
     "num_payload_key_pairs": 8,
     "num_payloads": 8,
     "num_robustness_cases": 6,
+    "num_shrinkage_true_keys": 1,
     "num_stability_payloads": 8,
+    "ordinary_sample_temperature": 0.8,
+    "ordinary_sample_top_p": 0.95,
     "quick_mode": true,
     "random_seed": 123,
+    "run_profile": "smoke",
     "secret_prefix": "",
     "tail_thresholds": [
       10,
@@ -24,7 +35,8 @@
     "use_embeddings": false,
     "use_sklearn_detector": true
   },
-  "created_at_unix": 1778014183.3046107,
+  "created_at_unix": 1778020963.8547063,
+  "created_at_utc": "2026-05-05T22:42:43.854708+00:00",
   "environment": {
     "llama_cpp": "0.3.16",
     "matplotlib": "3.10.7",
@@ -33,15 +45,16 @@
     "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
     "sklearn_available": true
   },
+  "git_commit_hash": "adca50d892af419084e257ef9bf38cec06d45799",
   "paths": {
-    "cache_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/cache",
-    "experiment_root": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations",
-    "figures_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/figures",
-    "raw_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/raw",
-    "repo_root": "/home/meow/Documents/repos/LlmStenoExplore",
-    "results_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results",
-    "tables_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/tables",
-    "text_dir": "/home/meow/Documents/repos/LlmStenoExplore/paper-empirical-explorations/results/text"
+    "cache_dir": "results/cache",
+    "experiment_root": ".",
+    "figures_dir": "results/figures",
+    "raw_dir": "results/raw",
+    "repo_root": "..",
+    "results_dir": "results",
+    "tables_dir": "results/tables",
+    "text_dir": "results/text"
   },
   "tokenization_convention": {
     "payload_text": "Payload and stegotext display strings are tokenized as model.tokenize((' ' + text).encode('utf-8'), add_bos=True)[1:].",

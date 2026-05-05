@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    70362,
+    2178,
+    740,
+    262
+  ],
+  "input_ranks": [
+    74364,
+    3,
+    435,
+    2
+  ],
+  "key_text": "Write a short note about rain.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    42908,
+    23,
+    45,
+    1
+  ],
+  "secret_prefix": ""
+}
