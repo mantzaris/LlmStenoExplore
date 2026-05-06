@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    87286,
+    8312,
+    994,
+    4756,
+    304,
+    459,
+    4652
+  ],
+  "input_ranks": [
+    114545,
+    2154,
+    168,
+    1022,
+    1,
+    5,
+    1
+  ],
+  "key_text": "A wooden barrel sits in a cellar",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    28060,
+    1739,
+    290,
+    718,
+    2,
+    8,
+    1
+  ],
+  "secret_prefix": ""
+}

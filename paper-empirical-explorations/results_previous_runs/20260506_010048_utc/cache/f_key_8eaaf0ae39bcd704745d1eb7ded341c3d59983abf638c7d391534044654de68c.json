@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    70615,
+    109530,
+    122503,
+    35894,
+    45277,
+    1811
+  ],
+  "input_ranks": [
+    89803,
+    40,
+    102,
+    7,
+    9,
+    3
+  ],
+  "key_text": "Describe garden tools in plain language.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    54298,
+    146,
+    95,
+    1,
+    11,
+    4
+  ],
+  "secret_prefix": ""
+}

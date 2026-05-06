@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    56842,
+    5912,
+    8232,
+    2103,
+    41095,
+    12197,
+    323,
+    30409,
+    9889
+  ],
+  "input_ranks": [
+    89803,
+    1345,
+    36,
+    9,
+    554,
+    2,
+    2,
+    30,
+    2
+  ],
+  "key_text": "Describe a quiet mountain village today.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    51414,
+    4764,
+    123,
+    60,
+    453,
+    55,
+    2,
+    15,
+    2
+  ],
+  "secret_prefix": ""
+}

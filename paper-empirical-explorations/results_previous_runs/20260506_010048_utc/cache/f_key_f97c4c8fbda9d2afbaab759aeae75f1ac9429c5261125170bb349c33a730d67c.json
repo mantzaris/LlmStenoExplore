@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    106989,
+    1003,
+    41042,
+    4653,
+    74,
+    916,
+    220,
+    2366
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Write a short note about garden tools.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    78642,
+    16,
+    109,
+    40,
+    9,
+    6,
+    5,
+    5
+  ],
+  "secret_prefix": ""
+}

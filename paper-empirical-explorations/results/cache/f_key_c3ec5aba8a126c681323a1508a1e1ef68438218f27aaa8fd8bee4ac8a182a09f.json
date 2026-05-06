@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    81132,
+    40019,
+    1077,
+    1917,
+    25,
+    627,
+    40
+  ],
+  "input_ranks": [
+    89803,
+    307,
+    11,
+    60,
+    12,
+    58,
+    5
+  ],
+  "key_text": "Describe a quiet mountain",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    65521,
+    2356,
+    6,
+    241,
+    18,
+    1203,
+    3
+  ],
+  "secret_prefix": ""
+}

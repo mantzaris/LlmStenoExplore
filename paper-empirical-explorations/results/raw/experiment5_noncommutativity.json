@@ -1,606 +1,2238 @@
 {
   "pair_summary": [
     {
-      "key_h": "Talk about animals in a topic.",
-      "key_k": "Describe a quiet mountain village!",
-      "mean_log_rank_commutation_distance": 0.1875239143120115,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.13292939727131195,
-      "p50_log_rank_commutation_distance": 0.19718309333406922,
-      "p95_log_rank_commutation_distance": 0.2312961870432726,
+      "key_h": "The quick brown fox",
+      "key_k": "Write a neutral product description in one paragraph.",
+      "mean_log_rank_commutation_distance": 0.15241733672455718,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.07725787662903418,
+      "p50_log_rank_commutation_distance": 0.14273704826831723,
+      "p95_log_rank_commutation_distance": 0.2547586237051232,
       "pair_id": 0,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Explain a baseball",
-      "key_k": "Write about baking topic.",
-      "mean_log_rank_commutation_distance": 0.17305683561371316,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.08683270337569776,
-      "p50_log_rank_commutation_distance": 0.18849999879644413,
-      "p95_log_rank_commutation_distance": 0.25186847593302397,
+      "key_h": "xrite a neutral product description.",
+      "key_k": "Talk about animals in a forest.",
+      "mean_log_rank_commutation_distance": 0.1481159919346005,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.0866804817190432,
+      "p50_log_rank_commutation_distance": 0.1348755689460331,
+      "p95_log_rank_commutation_distance": 0.25875053200533094,
       "pair_id": 1,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Explain a baseball topic.",
-      "key_k": "Describe a quiet mountain topic.",
-      "mean_log_rank_commutation_distance": 0.1424865067565269,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.07863871652468,
-      "p50_log_rank_commutation_distance": 0.1590782182816684,
-      "p95_log_rank_commutation_distance": 0.18810286524372788,
+      "key_h": "Talk about animals in a",
+      "key_k": "xalk about animals in a forest.",
+      "mean_log_rank_commutation_distance": 0.16666596591662147,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.10301450725234526,
+      "p50_log_rank_commutation_distance": 0.15456788608682828,
+      "p95_log_rank_commutation_distance": 0.2676547785365873,
       "pair_id": 2,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Explain a baseball practice.s",
-      "key_k": "Explain a baseball practice.",
-      "mean_log_rank_commutation_distance": 0.14036445435742834,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.11170845705737864,
-      "p50_log_rank_commutation_distance": 0.13417707290556524,
-      "p95_log_rank_commutation_distance": 0.1860562159381539,
+      "key_h": "The quick brown fox jumps",
+      "key_k": "Write about baking bread briefly.",
+      "mean_log_rank_commutation_distance": 0.18408188561755506,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.06480366191582879,
+      "p50_log_rank_commutation_distance": 0.19407441063242534,
+      "p95_log_rank_commutation_distance": 0.28859201420356495,
       "pair_id": 3,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Talk about animals in a topic.",
-      "key_k": "Describe a quiet mountain",
-      "mean_log_rank_commutation_distance": 0.15928663276431979,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.10386484921929044,
-      "p50_log_rank_commutation_distance": 0.1538188087779849,
-      "p95_log_rank_commutation_distance": 0.22642395625156084,
+      "key_h": "Describe ancient Roman roads?",
+      "key_k": "Explain a baseball practice!",
+      "mean_log_rank_commutation_distance": 0.18068445039362635,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.09723697036281637,
+      "p50_log_rank_commutation_distance": 0.15725867101902263,
+      "p95_log_rank_commutation_distance": 0.32469421014672517,
       "pair_id": 4,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Describe a quiet mountain village.",
-      "key_k": "Write about baking bread.",
-      "mean_log_rank_commutation_distance": 0.11683893519673327,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.06551194333359354,
-      "p50_log_rank_commutation_distance": 0.10799777560845461,
-      "p95_log_rank_commutation_distance": 0.17712506414837992,
+      "key_h": "Write a neutral product description briefly.",
+      "key_k": "Write about baking bread briefly.",
+      "mean_log_rank_commutation_distance": 0.185117951063506,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.15833828083230647,
+      "p50_log_rank_commutation_distance": 0.18150198196359763,
+      "p95_log_rank_commutation_distance": 0.21666808823683223,
       "pair_id": 5,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "xalk about animals in a forest.",
-      "key_k": "Describe a quiet mountain villages.",
-      "mean_log_rank_commutation_distance": 0.17266438830878286,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.0886834842393858,
-      "p50_log_rank_commutation_distance": 0.16580641904810714,
-      "p95_log_rank_commutation_distance": 0.2688508142797072,
+      "key_h": "xhe quick brown fox jumps",
+      "key_k": "Describe ancient Roman roads!",
+      "mean_log_rank_commutation_distance": 0.20593726352357947,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1397413802380356,
+      "p50_log_rank_commutation_distance": 0.20609363886179036,
+      "p95_log_rank_commutation_distance": 0.2654441450413979,
       "pair_id": 6,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Write a neutral product description.",
-      "key_k": "Explain a baseball practice.",
-      "mean_log_rank_commutation_distance": 0.1747178321678132,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.11473152812439708,
-      "p50_log_rank_commutation_distance": 0.1746071322577362,
-      "p95_log_rank_commutation_distance": 0.2308578082854923,
+      "key_h": "The quick brown fox jumpss",
+      "key_k": "Explain a baseball practice.s",
+      "mean_log_rank_commutation_distance": 0.18439427780937404,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1456701755397579,
+      "p50_log_rank_commutation_distance": 0.1831913321038443,
+      "p95_log_rank_commutation_distance": 0.22847969067543356,
       "pair_id": 7,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Explain a baseball practice!",
-      "key_k": "Write about baking topic.",
-      "mean_log_rank_commutation_distance": 0.18940513589363264,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.09562515928367046,
-      "p50_log_rank_commutation_distance": 0.21508761020649442,
-      "p95_log_rank_commutation_distance": 0.23975771992457257,
+      "key_h": "Talk about animals in a",
+      "key_k": "Describe a quiet mountain village!",
+      "mean_log_rank_commutation_distance": 0.18721643844118444,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.11278688761528484,
+      "p50_log_rank_commutation_distance": 0.20217373315911935,
+      "p95_log_rank_commutation_distance": 0.2464382291383869,
       "pair_id": 8,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Talk about animals in a forest.",
-      "key_k": "Write about baking bread!",
-      "mean_log_rank_commutation_distance": 0.18758957425433198,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.117455413503063,
-      "p50_log_rank_commutation_distance": 0.1863910701696811,
-      "p95_log_rank_commutation_distance": 0.26006261263145963,
+      "key_h": "Write a neutral product descriptions.",
+      "key_k": "Write about baking bread.",
+      "mean_log_rank_commutation_distance": 0.12822699279982594,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.0594070144554347,
+      "p50_log_rank_commutation_distance": 0.11693330493732015,
+      "p95_log_rank_commutation_distance": 0.20956881483933165,
       "pair_id": 9,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Describe a quiet mountain",
-      "key_k": "Write about baking bread.",
-      "mean_log_rank_commutation_distance": 0.16087325604511968,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.07234645892308754,
-      "p50_log_rank_commutation_distance": 0.18529670934559983,
-      "p95_log_rank_commutation_distance": 0.21977626741734296,
+      "key_h": "Describe ancient Roman roads today.",
+      "key_k": "Explain a baseball practice.s",
+      "mean_log_rank_commutation_distance": 0.16223068606717927,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.0909094517595868,
+      "p50_log_rank_commutation_distance": 0.16101684925375967,
+      "p95_log_rank_commutation_distance": 0.24303580566957134,
       "pair_id": 10,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     },
     {
-      "key_h": "Explain a baseball practice!",
-      "key_k": "Describe a quiet mountain village!",
-      "mean_log_rank_commutation_distance": 0.16680747100916268,
-      "num_payloads": 6,
-      "p05_log_rank_commutation_distance": 0.08840943322250878,
-      "p50_log_rank_commutation_distance": 0.18714542020877184,
-      "p95_log_rank_commutation_distance": 0.20568932322911343,
+      "key_h": "Describe ancient Roman roads?",
+      "key_k": "Write about baking bread.",
+      "mean_log_rank_commutation_distance": 0.19125743342565327,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.11998800717747457,
+      "p50_log_rank_commutation_distance": 0.18089474305367573,
+      "p95_log_rank_commutation_distance": 0.2842155782179624,
       "pair_id": 11,
       "sampled_commutation_rate": 0.0,
       "sampled_commutation_successes": 0,
-      "sampled_commutation_wilson95_high": 0.3903342879021653,
-      "sampled_commutation_wilson95_low": 2.7755575615628914e-17
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write a neutral product description?",
+      "key_k": "xalk about animals in a forest.",
+      "mean_log_rank_commutation_distance": 0.15290582237125427,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.06322338116630326,
+      "p50_log_rank_commutation_distance": 0.15181498091789464,
+      "p95_log_rank_commutation_distance": 0.25729438947144406,
+      "pair_id": 12,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "xxplain a baseball practice.",
+      "key_k": "Describe a quiet mountain village!",
+      "mean_log_rank_commutation_distance": 0.20639873899161298,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.17856292457957962,
+      "p50_log_rank_commutation_distance": 0.2060813484929504,
+      "p95_log_rank_commutation_distance": 0.23323160526163383,
+      "pair_id": 13,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "The quick brown fox jumps",
+      "key_k": "Write a neutral product description.",
+      "mean_log_rank_commutation_distance": 0.21203494756770017,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.15881604220376172,
+      "p50_log_rank_commutation_distance": 0.19981855334863308,
+      "p95_log_rank_commutation_distance": 0.29305060319389975,
+      "pair_id": 14,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Talk about animals in a forest.",
+      "key_k": "Describe a quiet mountain village.",
+      "mean_log_rank_commutation_distance": 0.20184099170820508,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.11502569614478934,
+      "p50_log_rank_commutation_distance": 0.16618068970611638,
+      "p95_log_rank_commutation_distance": 0.390473470735856,
+      "pair_id": 15,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "The quick brown fox jumps!",
+      "key_k": "xxplain a baseball practice.",
+      "mean_log_rank_commutation_distance": 0.21694315917260304,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1253867548990429,
+      "p50_log_rank_commutation_distance": 0.2090495863690739,
+      "p95_log_rank_commutation_distance": 0.3125382075220147,
+      "pair_id": 16,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "The quick brown fox jumps.",
+      "key_k": "Write a neutral product",
+      "mean_log_rank_commutation_distance": 0.22208051900709244,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.13887246953252022,
+      "p50_log_rank_commutation_distance": 0.245583254337703,
+      "p95_log_rank_commutation_distance": 0.27580371449307445,
+      "pair_id": 17,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Talk about animals in a forest.",
+      "key_k": "Describe a quiet mountain villages.",
+      "mean_log_rank_commutation_distance": 0.20117193200805827,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.13207817866284344,
+      "p50_log_rank_commutation_distance": 0.17507683059333612,
+      "p95_log_rank_commutation_distance": 0.2828577357805129,
+      "pair_id": 18,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write about baking bread?",
+      "key_k": "Write about baking bread.s",
+      "mean_log_rank_commutation_distance": 0.16843724102327767,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1139382583481215,
+      "p50_log_rank_commutation_distance": 0.15935681561528725,
+      "p95_log_rank_commutation_distance": 0.22648029189577973,
+      "pair_id": 19,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "xhe quick brown fox jumps",
+      "key_k": "Write a neutral product description briefly.",
+      "mean_log_rank_commutation_distance": 0.2283616443364913,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1661289242598518,
+      "p50_log_rank_commutation_distance": 0.21414447284812643,
+      "p95_log_rank_commutation_distance": 0.3340535012682283,
+      "pair_id": 20,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write a neutral product",
+      "key_k": "Describe a quiet mountain village.",
+      "mean_log_rank_commutation_distance": 0.1601871194953346,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.09119032385812233,
+      "p50_log_rank_commutation_distance": 0.15583183115340873,
+      "p95_log_rank_commutation_distance": 0.2477426738626945,
+      "pair_id": 21,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Talk about animals in a forest.",
+      "key_k": "Write about baking bread.",
+      "mean_log_rank_commutation_distance": 0.1819524046908998,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.131756933641097,
+      "p50_log_rank_commutation_distance": 0.1813294887966145,
+      "p95_log_rank_commutation_distance": 0.21586331235073672,
+      "pair_id": 22,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Describe a quiet mountain village today.",
+      "key_k": "Write about baking bread.",
+      "mean_log_rank_commutation_distance": 0.17519470720973535,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.12975884332911095,
+      "p50_log_rank_commutation_distance": 0.1790245724574007,
+      "p95_log_rank_commutation_distance": 0.22369897294105953,
+      "pair_id": 23,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Describe ancient Roman",
+      "key_k": "Explain a baseball practice!",
+      "mean_log_rank_commutation_distance": 0.21779470025993097,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1353851077284483,
+      "p50_log_rank_commutation_distance": 0.20958951562576145,
+      "p95_log_rank_commutation_distance": 0.3201296954234898,
+      "pair_id": 24,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Explain a baseball practice.s",
+      "key_k": "Describe a quiet mountain village briefly.",
+      "mean_log_rank_commutation_distance": 0.18414579790055063,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.10699764634620457,
+      "p50_log_rank_commutation_distance": 0.1751340060502457,
+      "p95_log_rank_commutation_distance": 0.2858070462965474,
+      "pair_id": 25,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Explain a baseball practice today.",
+      "key_k": "Talk about animals in a",
+      "mean_log_rank_commutation_distance": 0.1747575786300141,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.12348994882536195,
+      "p50_log_rank_commutation_distance": 0.18121295232687917,
+      "p95_log_rank_commutation_distance": 0.2111617646307161,
+      "pair_id": 26,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Describe ancient Roman road.",
+      "key_k": "xescribe a quiet mountain village.",
+      "mean_log_rank_commutation_distance": 0.1886975588234126,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.12101234163742067,
+      "p50_log_rank_commutation_distance": 0.18454132749086022,
+      "p95_log_rank_commutation_distance": 0.2926269567934411,
+      "pair_id": 27,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write about baking bread briefly.",
+      "key_k": "xrite about baking bread.",
+      "mean_log_rank_commutation_distance": 0.15928141162518566,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.10902199960001151,
+      "p50_log_rank_commutation_distance": 0.16095179473568288,
+      "p95_log_rank_commutation_distance": 0.20648614317593392,
+      "pair_id": 28,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Describe ancient Roman roads.",
+      "key_k": "xescribe a quiet mountain village.",
+      "mean_log_rank_commutation_distance": 0.14379199326464287,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.0957119220042267,
+      "p50_log_rank_commutation_distance": 0.13740750703843685,
+      "p95_log_rank_commutation_distance": 0.19024560994459674,
+      "pair_id": 29,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "The quick brown fox jumps",
+      "key_k": "Describe ancient Roman road.",
+      "mean_log_rank_commutation_distance": 0.17878077009859625,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.1251481821679154,
+      "p50_log_rank_commutation_distance": 0.17963345878331566,
+      "p95_log_rank_commutation_distance": 0.21951145606554878,
+      "pair_id": 30,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "The quick brown fox",
+      "key_k": "Write about baking",
+      "mean_log_rank_commutation_distance": 0.23777504501487626,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.16630022695813634,
+      "p50_log_rank_commutation_distance": 0.24034989371144883,
+      "p95_log_rank_commutation_distance": 0.3140793070348152,
+      "pair_id": 31,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write a neutral product description in one paragraph.",
+      "key_k": "Explain a baseball practice?",
+      "mean_log_rank_commutation_distance": 0.1505172458694926,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.09519538909681752,
+      "p50_log_rank_commutation_distance": 0.14840213599698288,
+      "p95_log_rank_commutation_distance": 0.22551035468391245,
+      "pair_id": 32,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write a neutral product description?",
+      "key_k": "Explain a baseball practice today.",
+      "mean_log_rank_commutation_distance": 0.13806591680695626,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.08144354301141941,
+      "p50_log_rank_commutation_distance": 0.13843676652464376,
+      "p95_log_rank_commutation_distance": 0.19391954683717272,
+      "pair_id": 33,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "Write a neutral product description briefly.",
+      "key_k": "Write about baking",
+      "mean_log_rank_commutation_distance": 0.17241316364902337,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.11948839750753522,
+      "p50_log_rank_commutation_distance": 0.1782809482683772,
+      "p95_log_rank_commutation_distance": 0.2254025062608418,
+      "pair_id": 34,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
+    },
+    {
+      "key_h": "xescribe ancient Roman roads.",
+      "key_k": "Describe a quiet mountain village?",
+      "mean_log_rank_commutation_distance": 0.14389341644723155,
+      "num_payloads": 8,
+      "p05_log_rank_commutation_distance": 0.08279388260205763,
+      "p50_log_rank_commutation_distance": 0.14210512936837139,
+      "p95_log_rank_commutation_distance": 0.209689948465135,
+      "pair_id": 35,
+      "sampled_commutation_rate": 0.0,
+      "sampled_commutation_successes": 0,
+      "sampled_commutation_wilson95_high": 0.32440756488388023,
+      "sampled_commutation_wilson95_low": 0.0
     }
   ],
   "payload_rows": [
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2180026236601278,
+      "log_rank_commutation_distance": 0.2878934797198297,
       "pair_id": 0,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.14971215651659908,
+      "log_rank_commutation_distance": 0.1932224625349541,
       "pair_id": 0,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.20944468712700903,
+      "log_rank_commutation_distance": 0.1143555437158722,
       "pair_id": 0,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.12733514418954958,
+      "log_rank_commutation_distance": 0.1808666442557117,
       "pair_id": 0,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1849214995411294,
+      "log_rank_commutation_distance": 0.11114786020008752,
       "pair_id": 0,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.23572737483765419,
+      "log_rank_commutation_distance": 0.17111855282076227,
       "pair_id": 0,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.09897794692173481,
+      "log_rank_commutation_distance": 0.0700030797893339,
+      "pair_id": 0,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.09073107075990612,
+      "pair_id": 0,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3125740452349135,
       "pair_id": 1,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17853715196582007,
+      "log_rank_commutation_distance": 0.1587925788646779,
       "pair_id": 1,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.26394756171239603,
+      "log_rank_commutation_distance": 0.1308782261916094,
       "pair_id": 1,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.08278428886035208,
+      "log_rank_commutation_distance": 0.13887291170045676,
       "pair_id": 1,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.19846284562706817,
+      "log_rank_commutation_distance": 0.14411154102475845,
       "pair_id": 1,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.21563121859490772,
+      "log_rank_commutation_distance": 0.12039009782526638,
       "pair_id": 1,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.0857387678176991,
+      "log_rank_commutation_distance": 0.07974164865583551,
+      "pair_id": 1,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.09956688597928606,
+      "pair_id": 1,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.09923529556056765,
       "pair_id": 2,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.18592197460922208,
+      "log_rank_commutation_distance": 0.3089237520675424,
       "pair_id": 2,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.18882982878856314,
+      "log_rank_commutation_distance": 0.11003304325136083,
       "pair_id": 2,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.07627203276034031,
+      "log_rank_commutation_distance": 0.17795814281407432,
       "pair_id": 2,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.14282784540596707,
+      "log_rank_commutation_distance": 0.1459460440405147,
       "pair_id": 2,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17532859115736973,
+      "log_rank_commutation_distance": 0.19101239912195656,
       "pair_id": 2,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.11261633067807097,
+      "log_rank_commutation_distance": 0.16318972813314186,
+      "pair_id": 2,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13702932234381351,
+      "pair_id": 2,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.05855132708147816,
       "pair_id": 3,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.14058635910324302,
+      "log_rank_commutation_distance": 0.2465891558390095,
       "pair_id": 3,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1277677867078875,
+      "log_rank_commutation_distance": 0.24941369240840794,
       "pair_id": 3,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.15260319383102308,
+      "log_rank_commutation_distance": 0.1904259213059814,
       "pair_id": 3,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.11140583251714786,
+      "log_rank_commutation_distance": 0.19772289995886927,
       "pair_id": 3,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1972072233071975,
+      "log_rank_commutation_distance": 0.3096880336317264,
       "pair_id": 3,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.14736981337867833,
+      "log_rank_commutation_distance": 0.14384891382105938,
+      "pair_id": 3,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.07641514089390851,
+      "pair_id": 3,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12033630142698079,
       "pair_id": 4,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.13778757922954837,
+      "log_rank_commutation_distance": 0.16592872913973664,
       "pair_id": 4,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.09255727254920447,
+      "log_rank_commutation_distance": 0.1485886128983086,
       "pair_id": 4,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17375807837367252,
+      "log_rank_commutation_distance": 0.08479886902057399,
       "pair_id": 4,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.16026780417729147,
+      "log_rank_commutation_distance": 0.17916683102198327,
       "pair_id": 4,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.24397924887752362,
+      "log_rank_commutation_distance": 0.26999487017399365,
       "pair_id": 4,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.06156018333804446,
+      "log_rank_commutation_distance": 0.12251368856616086,
+      "pair_id": 4,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.35414770090127295,
+      "pair_id": 4,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1573283775972626,
       "pair_id": 5,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.0773672233202408,
+      "log_rank_commutation_distance": 0.2076371841644218,
       "pair_id": 5,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1649158516610479,
+      "log_rank_commutation_distance": 0.16021381541167365,
       "pair_id": 5,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.09738718416438266,
+      "log_rank_commutation_distance": 0.16515431115331253,
       "pair_id": 5,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.11860836705252657,
+      "log_rank_commutation_distance": 0.16642255706305376,
       "pair_id": 5,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.18119480164415724,
+      "log_rank_commutation_distance": 0.19658140686414152,
       "pair_id": 5,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.10107823963439885,
+      "log_rank_commutation_distance": 0.20607507351682128,
+      "pair_id": 5,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22153088273736093,
+      "pair_id": 5,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12872111690025473,
       "pair_id": 6,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2783299520522298,
+      "log_rank_commutation_distance": 0.26315908177584163,
       "pair_id": 6,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.08455189910771478,
+      "log_rank_commutation_distance": 0.233634037878784,
       "pair_id": 6,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1546801658294618,
+      "log_rank_commutation_distance": 0.26667456372285125,
       "pair_id": 6,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17693267226675247,
+      "log_rank_commutation_distance": 0.16020758357962864,
       "pair_id": 6,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2404134009621394,
+      "log_rank_commutation_distance": 0.18291444660769476,
       "pair_id": 6,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.09842738073842913,
+      "log_rank_commutation_distance": 0.21509084670633052,
+      "pair_id": 6,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1970964310172502,
+      "pair_id": 6,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2172972741375624,
       "pair_id": 7,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2432049278356462,
+      "log_rank_commutation_distance": 0.18166183231334807,
       "pair_id": 7,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.18010741033728647,
+      "log_rank_commutation_distance": 0.18544051010769855,
       "pair_id": 7,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.19381644963503056,
+      "log_rank_commutation_distance": 0.23450099188813342,
       "pair_id": 7,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1691068541781859,
+      "log_rank_commutation_distance": 0.13504105647477538,
       "pair_id": 7,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.16364397028230088,
+      "log_rank_commutation_distance": 0.18472083189434058,
       "pair_id": 7,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.22031052810591606,
+      "log_rank_commutation_distance": 0.16540996808901112,
+      "pair_id": 7,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1710817575701228,
+      "pair_id": 7,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.0984647824637265,
       "pair_id": 8,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2098646923070728,
+      "log_rank_commutation_distance": 0.14344013250012475,
       "pair_id": 8,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.244301531856536,
+      "log_rank_commutation_distance": 0.2003750033276482,
       "pair_id": 8,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.22612628412868233,
+      "log_rank_commutation_distance": 0.2039724629905905,
       "pair_id": 8,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.07333642908554658,
+      "log_rank_commutation_distance": 0.24220276061222895,
       "pair_id": 8,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1624913498780421,
+      "log_rank_commutation_distance": 0.24871886603708734,
       "pair_id": 8,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1050113553870956,
+      "log_rank_commutation_distance": 0.22117241670131893,
+      "pair_id": 8,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13938508289675033,
+      "pair_id": 8,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.047177325382282566,
       "pair_id": 9,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.16840231913556147,
+      "log_rank_commutation_distance": 0.12778689861730216,
       "pair_id": 9,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.20437982120380074,
+      "log_rank_commutation_distance": 0.19189917428864636,
       "pair_id": 9,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2736470442886348,
+      "log_rank_commutation_distance": 0.09987695433921613,
       "pair_id": 9,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1547875878509652,
+      "log_rank_commutation_distance": 0.15179334767678887,
       "pair_id": 9,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.21930931765993414,
+      "log_rank_commutation_distance": 0.10607971125733814,
       "pair_id": 9,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.2264535078078312,
+      "log_rank_commutation_distance": 0.08211929416271722,
+      "pair_id": 9,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21908323667431606,
+      "pair_id": 9,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.08425320301136796,
       "pair_id": 10,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.060468886083270564,
+      "log_rank_commutation_distance": 0.15245513734005645,
       "pair_id": 10,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.19583817631602565,
+      "log_rank_commutation_distance": 0.1635744888800069,
       "pair_id": 10,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.19974454624587826,
+      "log_rank_commutation_distance": 0.25915179730766585,
       "pair_id": 10,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.10797917744253849,
+      "log_rank_commutation_distance": 0.16234056005623,
       "pair_id": 10,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17475524237517398,
+      "log_rank_commutation_distance": 0.15969313845128935,
       "pair_id": 10,
       "payload_id": 5
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.06845529874964722,
+      "log_rank_commutation_distance": 0.21310610691311016,
+      "pair_id": 10,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.10327105657770748,
+      "pair_id": 10,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.23547658084066864,
       "pair_id": 11,
       "payload_id": 0
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.20336162891181075,
+      "log_rank_commutation_distance": 0.17844771350313945,
       "pair_id": 11,
       "payload_id": 1
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.206465221334881,
+      "log_rank_commutation_distance": 0.15793500227857013,
       "pair_id": 11,
       "payload_id": 2
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.17495049887010056,
+      "log_rank_commutation_distance": 0.0995550098153462,
       "pair_id": 11,
       "payload_id": 3
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.19934034154744315,
+      "log_rank_commutation_distance": 0.17290958119866962,
       "pair_id": 11,
       "payload_id": 4
     },
     {
       "exact_commutes_on_payload": false,
-      "log_rank_commutation_distance": 0.1482718366410935,
+      "log_rank_commutation_distance": 0.1919341534358071,
       "pair_id": 11,
       "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.31045965372881296,
+      "pair_id": 11,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.183341772604212,
+      "pair_id": 11,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.0567101876994965,
+      "pair_id": 12,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.163036270490673,
+      "pair_id": 12,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17808394883551806,
+      "pair_id": 12,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14979929596524483,
+      "pair_id": 12,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.07531931189037297,
+      "pair_id": 12,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2999461651984812,
+      "pair_id": 12,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14652073301970317,
+      "pair_id": 12,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15383066587054445,
+      "pair_id": 12,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17104475214116852,
+      "pair_id": 13,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1925252448223431,
+      "pair_id": 13,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22841976681188,
+      "pair_id": 13,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19912708550301872,
+      "pair_id": 13,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21208777047247607,
+      "pair_id": 13,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.20218614265689944,
+      "pair_id": 13,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.23582259519611667,
+      "pair_id": 13,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.20997655432900134,
+      "pair_id": 13,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2460769949609798,
+      "pair_id": 14,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3183440845500875,
+      "pair_id": 14,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21063809379143747,
+      "pair_id": 14,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2025225006066771,
+      "pair_id": 14,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19711460609058906,
+      "pair_id": 14,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1937379199379971,
+      "pair_id": 14,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18094485062909982,
+      "pair_id": 14,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14690052997473352,
+      "pair_id": 14,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.47735049082846415,
+      "pair_id": 15,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1417512643116609,
+      "pair_id": 15,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14684883839528626,
+      "pair_id": 15,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18551254101694653,
+      "pair_id": 15,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22913043342101258,
+      "pair_id": 15,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11012341798695352,
+      "pair_id": 15,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.199881020695975,
+      "pair_id": 15,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12412992700934157,
+      "pair_id": 15,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1756348743110579,
+      "pair_id": 16,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2557280497693248,
+      "pair_id": 16,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.32550248364688256,
+      "pair_id": 16,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17163531309608884,
+      "pair_id": 16,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19953773377754844,
+      "pair_id": 16,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21856143896059935,
+      "pair_id": 16,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2884616947186888,
+      "pair_id": 16,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.10048368510063356,
+      "pair_id": 16,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2803836235107882,
+      "pair_id": 17,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.24782182687573298,
+      "pair_id": 17,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2511370148393575,
+      "pair_id": 17,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14373055764224069,
+      "pair_id": 17,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.26729816917446325,
+      "pair_id": 17,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.24334468179967306,
+      "pair_id": 17,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13625657593497842,
+      "pair_id": 17,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2066717022795054,
+      "pair_id": 17,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.25734633920131095,
+      "pair_id": 18,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.29399499881819763,
+      "pair_id": 18,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1734851522090266,
+      "pair_id": 18,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1226693619476243,
+      "pair_id": 18,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14955169541967894,
+      "pair_id": 18,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17362512648153933,
+      "pair_id": 18,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2621742472819556,
+      "pair_id": 18,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17652853470513288,
+      "pair_id": 18,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16771431888913566,
+      "pair_id": 19,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.10031276821532059,
+      "pair_id": 19,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14957547546826658,
+      "pair_id": 19,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18711036053613397,
+      "pair_id": 19,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22696752815456284,
+      "pair_id": 19,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22557542455803964,
+      "pair_id": 19,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15099931234143882,
+      "pair_id": 19,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13924274002332318,
+      "pair_id": 19,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17549406632440584,
+      "pair_id": 20,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21803818905571504,
+      "pair_id": 20,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.261320943820969,
+      "pair_id": 20,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21025075664053783,
+      "pair_id": 20,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16108615545586116,
+      "pair_id": 20,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2206868757229969,
+      "pair_id": 20,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3732171860475219,
+      "pair_id": 20,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2067989816239228,
+      "pair_id": 20,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11356409990986513,
+      "pair_id": 21,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15685277348123208,
+      "pair_id": 21,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15481088882558539,
+      "pair_id": 21,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11396936183838216,
+      "pair_id": 21,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17334524256142472,
+      "pair_id": 21,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2543619489532212,
+      "pair_id": 21,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.23544973440885925,
+      "pair_id": 21,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.07914290598410696,
+      "pair_id": 21,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2098815008557056,
+      "pair_id": 22,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21908428777113811,
+      "pair_id": 22,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18397051317757993,
+      "pair_id": 22,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.20634921514876178,
+      "pair_id": 22,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17155609170046673,
+      "pair_id": 22,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17576254669492233,
+      "pair_id": 22,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11032661776297485,
+      "pair_id": 22,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1786884644156491,
+      "pair_id": 22,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12984302951162016,
+      "pair_id": 23,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22627063542680778,
+      "pair_id": 23,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21892302832466992,
+      "pair_id": 23,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1664502846868325,
+      "pair_id": 23,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12971351230775985,
+      "pair_id": 23,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13251698903349293,
+      "pair_id": 23,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.20624131815873067,
+      "pair_id": 23,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19159886022796888,
+      "pair_id": 23,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1543062846992484,
+      "pair_id": 24,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19812138687908298,
+      "pair_id": 24,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.24196574927787295,
+      "pair_id": 24,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12519678166724826,
+      "pair_id": 24,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.166716671947384,
+      "pair_id": 24,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3087193622667387,
+      "pair_id": 24,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22105764437243988,
+      "pair_id": 24,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3262737209694327,
+      "pair_id": 24,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.26475514987793713,
+      "pair_id": 25,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.20951425007807178,
+      "pair_id": 25,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2971426828296453,
+      "pair_id": 25,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12276527027223305,
+      "pair_id": 25,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.09850738730911231,
+      "pair_id": 25,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17104763566333564,
+      "pair_id": 25,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13021363073691405,
+      "pair_id": 25,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17922037643715577,
+      "pair_id": 25,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14130535432950758,
+      "pair_id": 26,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2040048477818254,
+      "pair_id": 26,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19558339521254323,
+      "pair_id": 26,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16582859980538364,
+      "pair_id": 26,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1815752494746024,
+      "pair_id": 26,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2150154890878111,
+      "pair_id": 26,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1808506551791559,
+      "pair_id": 26,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11389703816928352,
+      "pair_id": 26,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12058907542760397,
+      "pair_id": 27,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.3352397872834943,
+      "pair_id": 27,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21348884302619955,
+      "pair_id": 27,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15380987075680166,
+      "pair_id": 27,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19550803121197982,
+      "pair_id": 27,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19557183165582914,
+      "pair_id": 27,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17357462376974064,
+      "pair_id": 27,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12179840745565167,
+      "pair_id": 27,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1703738318633422,
+      "pair_id": 28,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19765308791949532,
+      "pair_id": 28,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1267487828740881,
+      "pair_id": 28,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14500450323870726,
+      "pair_id": 28,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15152975760802354,
+      "pair_id": 28,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21124240369863162,
+      "pair_id": 28,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17222211719291927,
+      "pair_id": 28,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.09947680860627794,
+      "pair_id": 28,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14139865414621194,
+      "pair_id": 29,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.08438191066743646,
+      "pair_id": 29,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.132839750031981,
+      "pair_id": 29,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16128461979679143,
+      "pair_id": 29,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18974740666580414,
+      "pair_id": 29,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11675337162969426,
+      "pair_id": 29,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13341635993066178,
+      "pair_id": 29,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.190513873248562,
+      "pair_id": 29,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17679341238009252,
+      "pair_id": 30,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2045138599513482,
+      "pair_id": 30,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16393435015276273,
+      "pair_id": 30,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19696395526278834,
+      "pair_id": 30,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22758708474242606,
+      "pair_id": 30,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1737166706290465,
+      "pair_id": 30,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1824735051865388,
+      "pair_id": 30,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.10426332248376682,
+      "pair_id": 30,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.33342151876238524,
+      "pair_id": 31,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2718172537884816,
+      "pair_id": 31,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1608982189388665,
+      "pair_id": 31,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2008729969574135,
+      "pair_id": 31,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.17633252756535175,
+      "pair_id": 31,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22320964843611213,
+      "pair_id": 31,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.27815805668361376,
+      "pair_id": 31,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.2574901389867855,
+      "pair_id": 31,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.26394241086675596,
+      "pair_id": 32,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13400845367395084,
+      "pair_id": 32,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.15413653605863184,
+      "pair_id": 32,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1285715100996348,
+      "pair_id": 32,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1489307635855812,
+      "pair_id": 32,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.07722363163376206,
+      "pair_id": 32,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14787350840838456,
+      "pair_id": 32,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14945115262923966,
+      "pair_id": 32,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.08662336583563841,
+      "pair_id": 33,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.14354158943227893,
+      "pair_id": 33,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11841153312405588,
+      "pair_id": 33,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.07865440764453226,
+      "pair_id": 33,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16059854081573055,
+      "pair_id": 33,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13333194361700862,
+      "pair_id": 33,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1842277441799695,
+      "pair_id": 33,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.199138209806436,
+      "pair_id": 33,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1756723002094029,
+      "pair_id": 34,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.19999605775943818,
+      "pair_id": 34,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1310008806469267,
+      "pair_id": 34,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22809267151335458,
+      "pair_id": 34,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.18088959632735155,
+      "pair_id": 34,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.12874119656745264,
+      "pair_id": 34,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11450612109065661,
+      "pair_id": 34,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.22040648507760374,
+      "pair_id": 34,
+      "payload_id": 7
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1466792716220676,
+      "pair_id": 35,
+      "payload_id": 0
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.11074499461036087,
+      "pair_id": 35,
+      "payload_id": 1
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.10911572422294884,
+      "pair_id": 35,
+      "payload_id": 2
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.16380381292801177,
+      "pair_id": 35,
+      "payload_id": 3
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.13753098711467515,
+      "pair_id": 35,
+      "payload_id": 4
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.1994460803756727,
+      "pair_id": 35,
+      "payload_id": 5
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.21520587743638395,
+      "pair_id": 35,
+      "payload_id": 6
+    },
+    {
+      "exact_commutes_on_payload": false,
+      "log_rank_commutation_distance": 0.06862058326773159,
+      "pair_id": 35,
+      "payload_id": 7
     }
   ]
 }

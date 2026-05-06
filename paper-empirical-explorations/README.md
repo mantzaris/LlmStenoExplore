@@ -46,18 +46,30 @@ PY
 
 ## Run profiles
 
-The notebook defines three profiles:
+The notebook defines four profiles:
 
 - `smoke`: small CPU-safe validation run.
-- `paper_medium`: recommended paper rerun; default in the notebook.
+- `paper_two_hour`: default time-bounded paper-evidence run.
+- `paper_medium`: larger paper rerun when several CPU hours are available.
 - `paper_full`: larger profile for explicit long runs only; do not run automatically.
+
+`paper_two_hour` uses 24 payloads, at least 60 finite keys, 40 correctness/detection pairs, 16 collision transcripts, 36 non-commutativity key pairs, and 20 robustness base cases. It also has a 2.25 hour budget setting. If the previous smoke timings predict an over-budget run, the notebook reduces later experiments first and records the change in `results/raw/run_manifest.json`.
 
 `paper_medium` uses 40 payloads, 120 finite keys, 80 correctness/detection pairs, 40 collision transcripts, 100 non-commutativity key pairs, and 40 robustness base cases. On CPU this can take many hours because full-vocabulary rank computations are repeated for `F_k(r)`. The cache in `results/cache/` lets interrupted or repeated runs resume many expensive map evaluations.
 
-To run the default paper profile from the repository root:
+To run the default time-bounded profile from the repository root:
 
 ```bash
 jupyter nbconvert --to notebook --execute --inplace \
+  paper-empirical-explorations/01_paper_empirical_experiments_llama8b.ipynb \
+  --ExecutePreprocessor.timeout=-1 \
+  --ExecutePreprocessor.kernel_name=calgacus-repl
+```
+
+To be explicit:
+
+```bash
+CARTS_RUN_PROFILE=paper_two_hour jupyter nbconvert --to notebook --execute --inplace \
   paper-empirical-explorations/01_paper_empirical_experiments_llama8b.ipynb \
   --ExecutePreprocessor.timeout=-1 \
   --ExecutePreprocessor.kernel_name=calgacus-repl
@@ -85,6 +97,8 @@ cp -a paper-empirical-explorations/results/. paper-empirical-explorations/result
 ```
 
 The notebook clears `results/figures`, `results/tables`, `results/text`, and `results/raw` at the start of a run, while preserving `results/cache` by default. To force a fully cold run, clear `results/cache` manually after making a backup.
+
+The run manifest records `time_budget_adjustments`, `max_runtime_hours`, and the smoke-based runtime estimate when available.
 
 ## Experiments
 

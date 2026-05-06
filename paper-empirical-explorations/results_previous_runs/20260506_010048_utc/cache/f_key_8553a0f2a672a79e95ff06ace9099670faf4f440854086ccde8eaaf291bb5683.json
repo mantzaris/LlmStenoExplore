@@ -1,0 +1,35 @@
+{
+  "generated_ids": [
+    34006,
+    198,
+    21994,
+    32,
+    10015,
+    24131,
+    198,
+    34006
+  ],
+  "input_ranks": [
+    99353,
+    9,
+    113,
+    32,
+    6,
+    1,
+    5,
+    2
+  ],
+  "key_text": "Explain a scene involving old books.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    5006,
+    51,
+    147,
+    2541,
+    36,
+    1,
+    2,
+    2
+  ],
+  "secret_prefix": ""
+}

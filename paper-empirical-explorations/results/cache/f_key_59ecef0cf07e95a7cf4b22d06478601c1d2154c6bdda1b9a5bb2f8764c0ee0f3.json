@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    110590,
+    7720,
+    13,
+    763,
+    13168,
+    627,
+    9,
+    1442,
+    499
+  ],
+  "input_ranks": [
+    99353,
+    2666,
+    4,
+    6,
+    4,
+    6,
+    2,
+    13,
+    1
+  ],
+  "key_text": "xrite a neutral product description.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    91742,
+    17507,
+    14,
+    11,
+    9,
+    6,
+    115,
+    17,
+    1
+  ],
+  "secret_prefix": ""
+}

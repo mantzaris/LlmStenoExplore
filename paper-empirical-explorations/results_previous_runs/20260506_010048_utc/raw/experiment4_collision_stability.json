@@ -1,0 +1,61 @@
+{
+  "shrinkage_rows": [
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 1,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 2,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 3,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 4,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 5,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 6,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 7,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    },
+    {
+      "candidate_set_size": 1,
+      "num_transcripts": 8,
+      "true_key": "Write about baking bread.",
+      "true_key_index": 0,
+      "true_key_still_present": true
+    }
+  ],
+  "stability_rows": []
+}

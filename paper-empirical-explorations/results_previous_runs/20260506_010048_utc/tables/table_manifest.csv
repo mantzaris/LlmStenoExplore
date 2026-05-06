@@ -1,0 +1,15 @@
+table_file,experiment,description,paper_claim_supported
+results/tables/payloads.csv,Section 4,Payload set and token lengths for this run.,Defines tested payload distribution.
+results/tables/keys.csv,Section 4,Finite key set and context token lengths for this run.,Defines tested finite key set.
+results/tables/experiment1_correctness.csv,Experiment 1,Round-trip status for each payload-key pair with Wilson intervals.,Exact invertibility implementation check.
+results/tables/experiment2_rank_likelihood_detection.csv,Experiment 2,"Rank-likelihood features for CARTS, greedy, and sampled comparison text.",Rank pressure and distribution-specific detectability.
+results/tables/experiment2_detector_auc.csv,Experiment 2,Detector AUCs and bootstrap confidence intervals.,Distribution-specific simple detectability.
+results/tables/experiment3_key_collision_fibers.csv,Experiment 3,Finite candidate fiber sizes and true-key containment.,Finite key-collision fibers.
+results/tables/experiment3_largest_fibers.csv,Experiment 3,Largest observed finite candidate fibers.,Finite key-collision examples.
+results/tables/experiment3_search_cost.csv,Experiment 3,Exhaustive finite key search cost per transcript.,Finite context-search cost.
+results/tables/experiment4_collision_stability.csv,Experiment 4,Collision stability across new payload rank vectors; empty if no collisions were found.,Multi-payload collision stability under finite K_adm.
+results/tables/experiment4_candidate_shrinkage.csv,Experiment 4,Candidate set size after accumulating transcripts.,Multi-transcript ambiguity under finite K_adm.
+results/tables/experiment5_noncommutativity.csv,Experiment 5,Sampled commutation rates and log-rank distances for key-induced maps.,Non-commutativity of F_k maps.
+results/tables/experiment5_Nk_tau_curve.csv,Experiment 5,Average number of highly commuting keys by metric threshold.,Related-instance commutation structure.
+results/tables/experiment6_robustness.csv,Experiment 6,Decoded errors after length-preserving stegotext token perturbations.,Perturbation brittleness of base CARTS.
+results/tables/paper_verification_checklist.csv,Final checklist,Theory-claim verification checklist for the paper.,Maps empirical outputs to paper claims.

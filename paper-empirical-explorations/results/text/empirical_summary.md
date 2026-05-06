@@ -3,7 +3,7 @@
 
 ## Experimental configuration
 
-Profile: `smoke`
+Profile: `paper_two_hour`
 
 ```json
 {
@@ -13,32 +13,44 @@ Profile: `smoke`
     "ordinary_greedy",
     "ordinary_sampled"
   ],
-  "detector_bootstrap_samples": 200,
+  "detector_bootstrap_samples": 300,
+  "estimated_runtime_components_seconds_from_previous": {
+    "experiment1_correctness": 585.5478346100062,
+    "experiment2_rank_likelihood_detection": 397.3086936849995,
+    "experiment3_key_collision_fibers": 3632.4688289187106,
+    "experiment4_collision_stability": 204.17655935612856,
+    "experiment5_noncommutativity": 2363.310494452002,
+    "experiment6_robustness": 677.7241549166683
+  },
+  "estimated_runtime_seconds_from_previous": 7860.536565938515,
   "keep_cache_on_clear": true,
+  "max_runtime_hours": 2.25,
+  "max_runtime_seconds": 8100.0,
   "model_key": "llama3_8b_q4_k_m",
   "n_ctx": 4096,
   "n_gpu_layers": 0,
   "n_threads": null,
-  "num_collision_payloads": 6,
-  "num_commutativity_pairs": 12,
-  "num_commutativity_payloads": 6,
-  "num_keys": 10,
-  "num_payload_key_pairs": 8,
-  "num_payloads": 8,
-  "num_robustness_cases": 6,
-  "num_shrinkage_true_keys": 1,
-  "num_stability_payloads": 8,
+  "num_collision_payloads": 16,
+  "num_commutativity_pairs": 36,
+  "num_commutativity_payloads": 8,
+  "num_keys": 60,
+  "num_payload_key_pairs": 40,
+  "num_payloads": 24,
+  "num_robustness_cases": 20,
+  "num_shrinkage_true_keys": 3,
+  "num_stability_payloads": 16,
   "ordinary_sample_temperature": 0.8,
   "ordinary_sample_top_p": 0.95,
-  "quick_mode": true,
+  "quick_mode": false,
   "random_seed": 123,
-  "run_profile": "smoke",
+  "run_profile": "paper_two_hour",
   "secret_prefix": "",
   "tail_thresholds": [
     10,
     100,
     1000
   ],
+  "time_budget_adjustments": [],
   "use_embeddings": false,
   "use_sklearn_detector": true
 }
@@ -53,32 +65,32 @@ Tokenization convention:
 
 ## Implementation correctness result
 
-Exact recovery succeeded in 8/8 payload-key pairs (rate 1.000, Wilson 95% CI [0.676, 1.000]). Reverse-direction recovery succeeded in 8/8 cases (rate 1.000, Wilson 95% CI [0.676, 1.000]). This verifies the implementation under the specified deterministic environment; the theorem itself is mathematical.
+Exact recovery succeeded in 40/40 payload-key pairs (rate 1.000, Wilson 95% CI [0.912, 1.000]). Reverse-direction recovery succeeded in 40/40 cases (rate 1.000, Wilson 95% CI [0.912, 1.000]). This verifies the implementation under the specified deterministic environment; the theorem itself is mathematical.
 
 
 ## Rank-likelihood and detection result
 
-Mean normalized NLL was CARTS 7.2429, greedy 1.2824, and sampled 1.8208. Detector results: carts_vs_ordinary_greedy AUC 1.000 [1.000, 1.000]; carts_vs_ordinary_sampled AUC 1.000 [1.000, 1.000]. Greedy comparison is a weak baseline; sampled comparison is more realistic but still not a full cover-channel model. The tested CARTS outputs were separable from the chosen comparison distribution under the tested features; this is not a proof of steganographic insecurity.
+Mean normalized NLL was CARTS 7.3098, greedy 0.8695, and sampled 1.5207. Detector results: carts_vs_ordinary_greedy AUC 1.000 [1.000, 1.000]; carts_vs_ordinary_sampled AUC 1.000 [1.000, 1.000]. Greedy comparison is a weak baseline; sampled comparison is more realistic but still not a full cover-channel model. The tested CARTS outputs were separable from the chosen comparison distribution under the tested features; this is not a proof of steganographic insecurity.
 
 
 ## Key-collision result
 
-K_adm size was 31. Collisions occurred in 0/6 transcripts (rate 0.000, Wilson 95% CI [0.000, 0.390]). The largest observed fiber had size 1. True-key containment was 6/6 (Wilson 95% CI [0.610, 1.000]). Under the tested Llama 3 8B configuration and finite key set of size 31, no key collisions were observed in 6 tested transcripts. This does not rule out collisions in the unrestricted prompt space; it only indicates that collisions were not found under this finite search procedure.
+K_adm size was 60. Collisions occurred in 0/16 transcripts (rate 0.000, Wilson 95% CI [0.000, 0.194]). The largest observed fiber had size 1. True-key containment was 16/16 (Wilson 95% CI [0.806, 1.000]). Under the tested Llama 3 8B configuration and finite key set of size 60, no key collisions were observed in 16 tested transcripts. This does not rule out collisions in the unrestricted prompt space; it only indicates that collisions were not found under this finite search procedure.
 
 
 ## Collision stability and candidate shrinkage result
 
-Collision stability skipped because no collisions were found. Candidate shrinkage still ran; mean candidate set size after 8 transcripts was 1.000.
+Collision stability skipped because no collisions were found. Candidate shrinkage still ran; mean candidate set size after 16 transcripts was 1.000.
 
 
 ## Non-commutativity result
 
-Exact sampled commuting pairs observed: 0/12. Median D_log was 0.1697; 5th/50th/95th percentiles were 0.1298/0.1697/0.1884. No impossibility claim is made if no exact commuting pairs were found.
+Exact sampled commuting pairs observed: 0/36. Median D_log was 0.1813; 5th/50th/95th percentiles were 0.1424/0.1813/0.2237. No impossibility claim is made if no exact commuting pairs were found.
 
 
 ## Robustness result
 
-A single length-preserving token perturbation caused average decoded edit distance 3.6667 over 24 tested perturbations. The corruption rate was 24/24 (Wilson 95% CI [0.862, 1.000]). Average decoded edit distance by perturbation type: {'random_token_substitution': 3.8333333333333335, 'nearby_rank_substitution': 3.3333333333333335, 'adjacent_token_transposition': 4.333333333333333, 'punctuation_token_substitution': 3.1666666666666665}. Average suffix corruption by type: {'random_token_substitution': 1.0, 'nearby_rank_substitution': 1.0, 'adjacent_token_transposition': 1.0, 'punctuation_token_substitution': 0.9761904761904762}. Base CARTS is exact but not robust to unmodified-stegotext assumptions under these perturbation types.
+A single length-preserving token perturbation caused average decoded edit distance 4.2000 over 80 tested perturbations. The corruption rate was 80/80 (Wilson 95% CI [0.954, 1.000]). Average decoded edit distance by perturbation type: {'random_token_substitution': 3.95, 'nearby_rank_substitution': 3.8, 'adjacent_token_transposition': 4.6, 'punctuation_token_substitution': 4.45}. Average suffix corruption by type: {'random_token_substitution': 1.0, 'nearby_rank_substitution': 1.0, 'adjacent_token_transposition': 0.9928571428571429, 'punctuation_token_substitution': 1.0}. Base CARTS is exact but not robust to unmodified-stegotext assumptions under these perturbation types.
 
 
 ## Figure manifest
@@ -131,7 +143,7 @@ A single length-preserving token perturbation caused average decoded edit distan
 
 ## Next steps
 
-- Run `paper_medium` on a machine/time budget that can support full finite-key enumeration.
+- If `paper_two_hour` finishes comfortably, consider a follow-up `paper_medium` run; do not launch `paper_full` automatically.
 - Add stronger comparison distributions for Q_k.
 - Add calibrated plausibility metrics before wrong-key equivocation experiments.
 - Test another quantization or exact model variant only as a separately labeled run.
@@ -139,10 +151,10 @@ A single length-preserving token perturbation caused average decoded edit distan
 
 ## Paper-ready paragraphs
 
-- Exact recovery succeeded in 8/8 payload-key pairs (rate 1.000, Wilson 95% CI [0.676, 1.000]). Reverse-direction recovery succeeded in 8/8 cases (rate 1.000, Wilson 95% CI [0.676, 1.000]). This verifies the implementation under the specified deterministic environment; the theorem itself is mathematical.
-- Mean normalized NLL was CARTS 7.2429, greedy 1.2824, and sampled 1.8208. Detector results: carts_vs_ordinary_greedy AUC 1.000 [1.000, 1.000]; carts_vs_ordinary_sampled AUC 1.000 [1.000, 1.000]. Greedy comparison is a weak baseline; sampled comparison is more realistic but still not a full cover-channel model. The tested CARTS outputs were separable from the chosen comparison distribution under the tested features; this is not a proof of steganographic insecurity.
-- K_adm size was 31. Collisions occurred in 0/6 transcripts (rate 0.000, Wilson 95% CI [0.000, 0.390]). The largest observed fiber had size 1. True-key containment was 6/6 (Wilson 95% CI [0.610, 1.000]). Under the tested Llama 3 8B configuration and finite key set of size 31, no key collisions were observed in 6 tested transcripts. This does not rule out collisions in the unrestricted prompt space; it only indicates that collisions were not found under this finite search procedure.
-- Collision stability skipped because no collisions were found. Candidate shrinkage still ran; mean candidate set size after 8 transcripts was 1.000.
-- Exact sampled commuting pairs observed: 0/12. Median D_log was 0.1697; 5th/50th/95th percentiles were 0.1298/0.1697/0.1884. No impossibility claim is made if no exact commuting pairs were found.
-- A single length-preserving token perturbation caused average decoded edit distance 3.6667 over 24 tested perturbations. The corruption rate was 24/24 (Wilson 95% CI [0.862, 1.000]). Average decoded edit distance by perturbation type: {'random_token_substitution': 3.8333333333333335, 'nearby_rank_substitution': 3.3333333333333335, 'adjacent_token_transposition': 4.333333333333333, 'punctuation_token_substitution': 3.1666666666666665}. Average suffix corruption by type: {'random_token_substitution': 1.0, 'nearby_rank_substitution': 1.0, 'adjacent_token_transposition': 1.0, 'punctuation_token_substitution': 0.9761904761904762}. Base CARTS is exact but not robust to unmodified-stegotext assumptions under these perturbation types.
+- Exact recovery succeeded in 40/40 payload-key pairs (rate 1.000, Wilson 95% CI [0.912, 1.000]). Reverse-direction recovery succeeded in 40/40 cases (rate 1.000, Wilson 95% CI [0.912, 1.000]). This verifies the implementation under the specified deterministic environment; the theorem itself is mathematical.
+- Mean normalized NLL was CARTS 7.3098, greedy 0.8695, and sampled 1.5207. Detector results: carts_vs_ordinary_greedy AUC 1.000 [1.000, 1.000]; carts_vs_ordinary_sampled AUC 1.000 [1.000, 1.000]. Greedy comparison is a weak baseline; sampled comparison is more realistic but still not a full cover-channel model. The tested CARTS outputs were separable from the chosen comparison distribution under the tested features; this is not a proof of steganographic insecurity.
+- K_adm size was 60. Collisions occurred in 0/16 transcripts (rate 0.000, Wilson 95% CI [0.000, 0.194]). The largest observed fiber had size 1. True-key containment was 16/16 (Wilson 95% CI [0.806, 1.000]). Under the tested Llama 3 8B configuration and finite key set of size 60, no key collisions were observed in 16 tested transcripts. This does not rule out collisions in the unrestricted prompt space; it only indicates that collisions were not found under this finite search procedure.
+- Collision stability skipped because no collisions were found. Candidate shrinkage still ran; mean candidate set size after 16 transcripts was 1.000.
+- Exact sampled commuting pairs observed: 0/36. Median D_log was 0.1813; 5th/50th/95th percentiles were 0.1424/0.1813/0.2237. No impossibility claim is made if no exact commuting pairs were found.
+- A single length-preserving token perturbation caused average decoded edit distance 4.2000 over 80 tested perturbations. The corruption rate was 80/80 (Wilson 95% CI [0.954, 1.000]). Average decoded edit distance by perturbation type: {'random_token_substitution': 3.95, 'nearby_rank_substitution': 3.8, 'adjacent_token_transposition': 4.6, 'punctuation_token_substitution': 4.45}. Average suffix corruption by type: {'random_token_substitution': 1.0, 'nearby_rank_substitution': 1.0, 'adjacent_token_transposition': 0.9928571428571429, 'punctuation_token_substitution': 1.0}. Base CARTS is exact but not robust to unmodified-stegotext assumptions under these perturbation types.
 

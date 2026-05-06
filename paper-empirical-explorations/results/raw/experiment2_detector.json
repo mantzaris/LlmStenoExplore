@@ -9,7 +9,7 @@
   {
     "auc": 1.0,
     "auc_bootstrap95_high": 1.0,
-    "auc_bootstrap95_low": 1.0,
+    "auc_bootstrap95_low": 0.9999999999999999,
     "comparison": "carts_vs_ordinary_sampled",
     "detector_note": "sklearn logistic regression detector trained on a small split."
   }

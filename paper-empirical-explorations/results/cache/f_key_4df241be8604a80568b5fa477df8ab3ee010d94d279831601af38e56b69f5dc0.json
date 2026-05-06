@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    52532,
+    3651,
+    71002,
+    81563
+  ],
+  "input_ranks": [
+    104239,
+    7,
+    482,
+    7
+  ],
+  "key_text": "Describe ancient Roman roads today.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    69370,
+    5,
+    577,
+    5
+  ],
+  "secret_prefix": ""
+}

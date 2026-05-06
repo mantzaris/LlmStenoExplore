@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    52040,
+    81496,
+    16735,
+    25,
+    674,
+    1796
+  ],
+  "input_ranks": [
+    28178,
+    1816,
+    54,
+    1,
+    21,
+    1
+  ],
+  "key_text": "Describe a quiet mountain village.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    72305,
+    35499,
+    489,
+    2,
+    244,
+    21
+  ],
+  "secret_prefix": ""
+}

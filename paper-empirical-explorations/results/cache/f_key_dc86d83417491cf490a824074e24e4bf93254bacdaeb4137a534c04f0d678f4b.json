@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    74232,
+    56625,
+    13,
+    650,
+    327,
+    291,
+    220
+  ],
+  "input_ranks": [
+    99353,
+    2196,
+    23,
+    139,
+    1,
+    1,
+    8
+  ],
+  "key_text": "Describe ancient Roman",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    36392,
+    1833,
+    49,
+    94,
+    8,
+    1,
+    3
+  ],
+  "secret_prefix": ""
+}

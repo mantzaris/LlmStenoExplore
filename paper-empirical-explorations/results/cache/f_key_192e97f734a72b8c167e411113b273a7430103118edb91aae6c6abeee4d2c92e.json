@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    7537,
+    18825,
+    369,
+    1521,
+    5754,
+    7384,
+    574
+  ],
+  "input_ranks": [
+    89803,
+    307,
+    11,
+    60,
+    12,
+    58,
+    5
+  ],
+  "key_text": "Describe ancient Roman roads briefly.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    20086,
+    38189,
+    3,
+    922,
+    3890,
+    308,
+    11
+  ],
+  "secret_prefix": ""
+}

@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    77911,
+    11122,
+    86430,
+    100023,
+    323,
+    31439,
+    16540
+  ],
+  "input_ranks": [
+    102017,
+    119,
+    354,
+    2779,
+    23,
+    18,
+    4
+  ],
+  "key_text": "Explain a baseball practice today.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    32329,
+    162,
+    320,
+    3698,
+    5,
+    32,
+    30
+  ],
+  "secret_prefix": ""
+}

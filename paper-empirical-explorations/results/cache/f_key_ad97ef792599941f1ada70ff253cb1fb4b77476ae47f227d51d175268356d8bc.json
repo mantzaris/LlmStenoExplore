@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    55836,
+    311,
+    1879,
+    323
+  ],
+  "input_ranks": [
+    26077,
+    3,
+    758,
+    5
+  ],
+  "key_text": "xalk about animals in a forest.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    36990,
+    50,
+    1594,
+    13
+  ],
+  "secret_prefix": ""
+}

@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    28494,
+    875,
+    2696,
+    323
+  ],
+  "input_ranks": [
+    74364,
+    3,
+    435,
+    2
+  ],
+  "key_text": "Explain a baseball topic.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    18748,
+    64,
+    522,
+    4
+  ],
+  "secret_prefix": ""
+}

@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    13065,
+    9299,
+    3215,
+    311,
+    733,
+    3201,
+    13,
+    3639,
+    656
+  ],
+  "input_ranks": [
+    99353,
+    2666,
+    4,
+    6,
+    4,
+    6,
+    2,
+    13,
+    1
+  ],
+  "key_text": "Talk about animals in a forest.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    8394,
+    5974,
+    1,
+    13,
+    14,
+    5,
+    2,
+    32,
+    3
+  ],
+  "secret_prefix": ""
+}

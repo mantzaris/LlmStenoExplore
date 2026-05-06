@@ -1,0 +1,16 @@
+[
+  {
+    "auc": 1.0,
+    "auc_bootstrap95_high": 1.0,
+    "auc_bootstrap95_low": 1.0,
+    "comparison": "carts_vs_ordinary_greedy",
+    "detector_note": "sklearn logistic regression detector trained on a small split."
+  },
+  {
+    "auc": 1.0,
+    "auc_bootstrap95_high": 1.0,
+    "auc_bootstrap95_low": 1.0,
+    "comparison": "carts_vs_ordinary_sampled",
+    "detector_note": "sklearn logistic regression detector trained on a small split."
+  }
+]

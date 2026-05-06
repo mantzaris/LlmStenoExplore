@@ -1,0 +1,116 @@
+{
+  "comparison_distributions_used": [
+    "carts",
+    "ordinary_greedy",
+    "ordinary_sampled"
+  ],
+  "configuration_profile_name": "smoke",
+  "date_time_utc": "2026-05-05T23:11:24.028884+00:00",
+  "experiment_status": {
+    "experiment1_correctness": {
+      "detail": "",
+      "runtime_seconds": 117.10956692200125,
+      "status": "run"
+    },
+    "experiment2_rank_likelihood_detection": {
+      "detail": "",
+      "runtime_seconds": 79.4617387369999,
+      "status": "run"
+    },
+    "experiment3_key_collision_fibers": {
+      "detail": "",
+      "runtime_seconds": 703.7908356030002,
+      "status": "run"
+    },
+    "experiment4_collision_stability": {
+      "detail": "collision stability skipped",
+      "runtime_seconds": 17.58187038899996,
+      "status": "run"
+    },
+    "experiment5_noncommutativity": {
+      "detail": "",
+      "runtime_seconds": 590.8276236130005,
+      "status": "run"
+    },
+    "experiment6_robustness": {
+      "detail": "",
+      "runtime_seconds": 203.3172464750005,
+      "status": "run"
+    },
+    "model_load": {
+      "detail": "",
+      "runtime_seconds": 2.395400436998898,
+      "status": "run"
+    },
+    "smoke_test": {
+      "detail": "",
+      "runtime_seconds": 6.151691250999647,
+      "status": "run"
+    }
+  },
+  "figure_count": 17,
+  "git_commit_hash": "adca50d892af419084e257ef9bf38cec06d45799",
+  "logits_all": true,
+  "model_file_exists": true,
+  "model_key": "llama3_8b_q4_k_m",
+  "model_path": "models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "n_ctx": 4096,
+  "n_gpu_layers": 0,
+  "n_threads": null,
+  "number_of_collision_transcripts": 6,
+  "number_of_keys": 10,
+  "number_of_noncommutativity_pairs": 12,
+  "number_of_payload_key_pairs": 8,
+  "number_of_payloads": 8,
+  "number_of_robustness_perturbations": 24,
+  "numeric_results": {
+    "candidate_shrinkage_final_mean": 1,
+    "carts_mean_nll": 7.242871407141227,
+    "collision_count": 0,
+    "collision_total": 6,
+    "commuting_pair_total": 12,
+    "correctness_successes": 8,
+    "correctness_total": 8,
+    "detector_auc_rows": [
+      {
+        "auc": 1.0,
+        "auc_bootstrap95_high": 1.0,
+        "auc_bootstrap95_low": 1.0,
+        "comparison": "carts_vs_ordinary_greedy",
+        "detector_note": "sklearn logistic regression detector trained on a small split."
+      },
+      {
+        "auc": 1.0,
+        "auc_bootstrap95_high": 1.0,
+        "auc_bootstrap95_low": 1.0,
+        "comparison": "carts_vs_ordinary_sampled",
+        "detector_note": "sklearn logistic regression detector trained on a small split."
+      }
+    ],
+    "exact_commuting_pairs": 0,
+    "greedy_mean_nll": 1.282352182098991,
+    "k_adm_size": 31,
+    "largest_fiber": 1,
+    "median_commutation_distance": 0.16973592965897277,
+    "reverse_successes": 8,
+    "reverse_total": 8,
+    "robustness_average_decoded_edit_distance": 3.6666666666666665,
+    "robustness_corruption_count": 24,
+    "robustness_total": 24,
+    "sampled_mean_nll": 1.8207613225130008
+  },
+  "quick_mode": true,
+  "random_seed": 123,
+  "size_of_finite_key_set_K_adm": 31,
+  "table_count": 14,
+  "total_runtime_per_experiment": {
+    "experiment1_correctness": 117.10956692200125,
+    "experiment2_rank_likelihood_detection": 79.4617387369999,
+    "experiment3_key_collision_fibers": 703.7908356030002,
+    "experiment4_collision_stability": 17.58187038899996,
+    "experiment5_noncommutativity": 590.8276236130005,
+    "experiment6_robustness": 203.3172464750005,
+    "model_load": 2.395400436998898,
+    "smoke_test": 6.151691250999647
+  }
+}

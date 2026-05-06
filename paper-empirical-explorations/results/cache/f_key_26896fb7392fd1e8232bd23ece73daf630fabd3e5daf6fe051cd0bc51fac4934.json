@@ -1,0 +1,23 @@
+{
+  "generated_ids": [
+    39663,
+    379,
+    47428,
+    6316
+  ],
+  "input_ranks": [
+    74364,
+    3,
+    435,
+    2
+  ],
+  "key_text": "Talk about animals in a forest in one paragraph.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    105061,
+    9,
+    849,
+    28
+  ],
+  "secret_prefix": ""
+}

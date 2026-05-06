@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    81001,
+    9522,
+    27665,
+    10573,
+    34244,
+    3694,
+    40
+  ],
+  "input_ranks": [
+    89803,
+    310,
+    105,
+    1,
+    4,
+    15,
+    10
+  ],
+  "key_text": "Write a neutral product description!",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    15351,
+    1486,
+    692,
+    3,
+    7,
+    19,
+    10
+  ],
+  "secret_prefix": ""
+}

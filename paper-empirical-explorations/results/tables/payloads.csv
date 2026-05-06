@@ -1,9 +1,25 @@
-payload_id,category,text,token_ids,token_length
-0,mundane natural language,Switzerland is expensive.,"[30221, 374, 11646, 13]",4
-1,factual sentence,The meeting starts after lunch.,"[578, 6574, 8638, 1306, 16163, 13]",6
-2,policy-like sentence,The current policy has failed.,"[578, 1510, 4947, 706, 4745, 13]",6
-3,short sentence,A quiet river crossed the valley.,"[362, 11594, 15140, 28129, 279, 34681, 13]",7
-4,longer sentence,The lab notebook was hidden in the cabinet.,"[578, 10278, 38266, 574, 8340, 304, 279, 22685, 13]",9
-5,mundane natural language,A small bird landed near the window.,"[362, 2678, 12224, 27212, 3221, 279, 3321, 13]",8
-6,factual sentence,The archive contains several old records.,"[578, 18624, 5727, 3892, 2362, 7576, 13]",7
-7,repeated simple payload,The device stopped working after midnight.,"[578, 3756, 10717, 3318, 1306, 33433, 13]",7
+payload_id,payload_text,text,category,token_length,token_ids
+0,Switzerland is expensive.,Switzerland is expensive.,mundane sentence,4,"[30221, 374, 11646, 13]"
+1,The meeting starts after lunch.,The meeting starts after lunch.,factual sentence,6,"[578, 6574, 8638, 1306, 16163, 13]"
+2,The current policy has failed.,The current policy has failed.,policy-like sentence,6,"[578, 1510, 4947, 706, 4745, 13]"
+3,A quiet river crossed the valley.,A quiet river crossed the valley.,short sentence,7,"[362, 11594, 15140, 28129, 279, 34681, 13]"
+4,The lab notebook was hidden in the cabinet.,The lab notebook was hidden in the cabinet.,longer sentence,9,"[578, 10278, 38266, 574, 8340, 304, 279, 22685, 13]"
+5,A small bird landed near the window.,A small bird landed near the window.,mundane sentence,8,"[362, 2678, 12224, 27212, 3221, 279, 3321, 13]"
+6,The archive contains several old records.,The archive contains several old records.,factual sentence,7,"[578, 18624, 5727, 3892, 2362, 7576, 13]"
+7,The device stopped working after midnight.,The device stopped working after midnight.,repeated simple payload,7,"[578, 3756, 10717, 3318, 1306, 33433, 13]"
+8,The old train station was closed.,The old train station was closed.,factual sentence,7,"[578, 2362, 5542, 8216, 574, 8036, 13]"
+9,A wooden box was placed under the desk.,A wooden box was placed under the desk.,mundane sentence,9,"[362, 23162, 3830, 574, 9277, 1234, 279, 18496, 13]"
+10,The report was delayed until morning.,The report was delayed until morning.,model-like neutral sentence,7,"[578, 1934, 574, 23540, 3156, 6693, 13]"
+11,Several people waited near the market.,Several people waited near the market.,mundane sentence,7,"[26778, 1274, 30315, 3221, 279, 3157, 13]"
+12,The garden tools were left outside.,The garden tools were left outside.,mundane sentence,7,"[578, 13863, 7526, 1051, 2163, 4994, 13]"
+13,The city council approved the plan.,The city council approved the plan.,policy-like sentence,7,"[578, 3363, 15177, 12054, 279, 3197, 13]"
+14,The weather changed before sunset.,The weather changed before sunset.,factual sentence,6,"[578, 9282, 5614, 1603, 44084, 13]"
+15,A narrow road followed the river.,A narrow road followed the river.,longer sentence,7,"[362, 15376, 5754, 8272, 279, 15140, 13]"
+16,The museum opened after the storm.,The museum opened after the storm.,factual sentence,7,"[578, 24925, 9107, 1306, 279, 13766, 13]"
+17,The machine failed during testing.,The machine failed during testing.,model-like neutral sentence,6,"[578, 5780, 4745, 2391, 7649, 13]"
+18,A notebook remained inside the drawer.,A notebook remained inside the drawer.,mundane sentence,7,"[362, 38266, 14958, 4871, 279, 27580, 13]"
+19,The village bakery closed early.,The village bakery closed early.,mundane sentence,6,"[578, 14458, 66244, 8036, 4216, 13]"
+20,The message was written in pencil.,The message was written in pencil.,factual sentence,7,"[578, 1984, 574, 5439, 304, 47218, 13]"
+21,The committee rejected the proposal.,The committee rejected the proposal.,policy-like sentence,6,"[578, 13093, 18010, 279, 14050, 13]"
+22,A quiet bird watched from the roof.,A quiet bird watched from the roof.,mundane sentence,8,"[362, 11594, 12224, 15746, 505, 279, 15485, 13]"
+23,The lights turned off after midnight.,The lights turned off after midnight.,repeated simple payload,7,"[578, 13001, 6656, 1022, 1306, 33433, 13]"

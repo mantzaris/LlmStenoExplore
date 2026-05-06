@@ -1,0 +1,30 @@
+case_id,comparison_distribution,payload_id,key_id,payload_text,key_text,token_length,normalized_nll,mean_log_rank,max_log_rank,generated_text,ranks,tail_rank_fraction_gt_10,tail_rank_fraction_gt_100,tail_rank_fraction_gt_1000
+0,carts,6,18,The archive contains several old records.,Explain a baseball practice.,7,7.41882600655904,4.477071511096772,11.405373661304653, leží astute to show what I,"[89803, 2764, 3, 10, 83, 11, 6]",0.5714285714285714,0.2857142857142857,0.2857142857142857
+0,ordinary_greedy,6,18,The archive contains several old records.,Explain a baseball practice.,7,0.8246084295852428,0.0,0.0, What are some of the drills and,"[1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+0,ordinary_sampled,6,18,The archive contains several old records.,Explain a baseball practice.,7,1.807593106616927,0.7059489175156148,1.9459101490553132, Explain the different positions and roles.,"[7, 1, 1, 1, 1, 4, 5]",0.0,0.0,0.0
+1,carts,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,9,7.104569086137743,4.0208966754691335,11.405373661304653,"ósitoth, please retrieve a batto the","[89803, 1345, 36, 9, 554, 2, 2, 30, 2]",0.5555555555555556,0.3333333333333333,0.2222222222222222
+1,ordinary_greedy,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,9,1.0173825626055906,0.0,0.0, I'll choose a topic and you explain it,"[1, 1, 1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+1,ordinary_sampled,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,9,2.636315306615564,1.3895752486645014,3.2188758248682006, That's how you'll start your career as,"[25, 1, 10, 3, 4, 10, 1, 9, 1]",0.1111111111111111,0.0,0.0
+2,carts,7,12,The device stopped working after midnight.,Talk about animals in a forest.,7,8.265000435388975,4.306409390087561,11.405373661304653,"""/>.</gtk_item>
+``”
+
+This","[89803, 729, 533, 1, 1, 354, 1]",0.5714285714285714,0.5714285714285714,0.14285714285714285
+2,ordinary_greedy,7,12,The device stopped working after midnight.,Talk about animals in a forest.,7,0.9962059602768333,0.0,0.0, What do you see? What do,"[1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+2,ordinary_sampled,7,12,The device stopped working after midnight.,Talk about animals in a forest.,7,1.6763451901354263,0.8819694434145624,3.4011973816621555, Explain that they have different habitats and,"[30, 2, 2, 1, 1, 2, 2]",0.14285714285714285,0.0,0.0
+3,carts,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,9,6.997571389272635,4.0208966754691335,11.405373661304653,"<style product-text-style-item>
+    [product","[89803, 1345, 36, 9, 554, 2, 2, 30, 2]",0.5555555555555556,0.3333333333333333,0.2222222222222222
+3,ordinary_greedy,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,9,1.1867577138769616,0.0,0.0, This description should be factual and avoid any emotional,"[1, 1, 1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+3,ordinary_sampled,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,9,1.6294206913793507,0.5522014777306667,1.791759469228055, This means avoiding language that is too promotional or,"[1, 6, 1, 6, 1, 1, 2, 2, 1]",0.0,0.0,0.0
+4,carts,0,24,Switzerland is expensive.,Describe ancient Roman roads.,4,7.616900300167483,4.770958183266711,11.216727232750108,"rors, infrastructure and","[74364, 3, 435, 2]",0.5,0.5,0.25
+4,ordinary_greedy,0,24,Switzerland is expensive.,Describe ancient Roman roads.,4,1.4705838894605656,0.0,0.0, The Romans built an,"[1, 1, 1, 1]",0.0,0.0,0.0
+4,ordinary_sampled,0,24,Switzerland is expensive.,Describe ancient Roman roads.,4,1.7793884014844914,0.40235947810852507,1.6094379124341003, The Romans built many,"[1, 1, 1, 5]",0.0,0.0,0.0
+5,carts,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,8,5.679448785570963,3.248890913108781,11.506434443799858,"-ring a solitary.
+Answer: a peaceful","[99353, 9, 113, 32, 6, 1, 5, 2]",0.375,0.25,0.125
+5,ordinary_greedy,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,8,1.6056420213890295,0.0,0.0, The topic is a peaceful and serene mountain,"[1, 1, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+5,ordinary_sampled,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,8,0.8204232726468828,0.3612964697370206,2.1972245773362196, Use sensory details to bring the scene to,"[9, 2, 1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+6,carts,1,19,The meeting starts after lunch.,xxplain a baseball practice.,6,7.004473967566478,4.242740529907549,11.405373661304653,RESSED TREEM: I'll,"[89803, 282, 33, 17, 4, 2]",0.6666666666666666,0.3333333333333333,0.16666666666666666
+6,ordinary_greedy,1,19,The meeting starts after lunch.,xxplain a baseball practice.,6,1.6045217490556756,0.0,0.0, The coach is explaining the importance,"[1, 1, 1, 1, 1, 1]",0.0,0.0,0.0
+6,ordinary_sampled,1,19,The meeting starts after lunch.,xxplain a baseball practice.,6,2.42159572889256,1.0546561306215325,2.0794415416798357," It's easy! First,","[5, 1, 7, 2, 8, 1]",0.0,0.0,0.0
+7,carts,0,25,Switzerland is expensive.,xescribe ancient Roman roads.,4,7.856181286466494,4.770958183266711,11.216727232750108,"""]); The equation is","[74364, 3, 435, 2]",0.5,0.5,0.25
+7,ordinary_greedy,0,25,Switzerland is expensive.,xescribe ancient Roman roads.,4,1.5531151305420279,0.0,0.0, The Roman Empire was,"[1, 1, 1, 1]",0.0,0.0,0.0
+7,ordinary_sampled,0,25,Switzerland is expensive.,xescribe ancient Roman roads.,4,1.7950088823328052,0.44793986730701374,1.0986122886681098, They were also used,"[3, 1, 2, 1]",0.0,0.0,0.0

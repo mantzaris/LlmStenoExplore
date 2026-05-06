@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    58474,
+    60,
+    2885,
+    8514,
+    2446,
+    1738
+  ],
+  "input_ranks": [
+    53512,
+    193,
+    15,
+    46,
+    2,
+    2
+  ],
+  "key_text": "Explain a baseball practice.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    123539,
+    157,
+    10,
+    105,
+    6,
+    4
+  ],
+  "secret_prefix": ""
+}

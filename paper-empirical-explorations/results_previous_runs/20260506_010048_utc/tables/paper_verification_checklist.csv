@@ -1,0 +1,8 @@
+Theory claim,Experiment supporting it,Figure/table produced,Status,Caveat
+Exact invertibility,Experiment 1,"experiment1_correctness.csv, exp1_correctness_bar.png",pass,Sample-level implementation verification; theorem is mathematical.
+Rank pressure and quality,Experiment 2,"exp2_nll_boxplot.png, exp2_mean_log_rank_cdf.png",reported,Depends on Q_k.
+Simple detectability,Experiment 2,exp2_detector_roc.png,reported,"Distribution-specific, not a proof of security/insecurity."
+Key-collision fibers,Experiment 3,"exp3_fiber_size_histogram.png, experiment3_largest_fibers.csv",reported,Finite K_adm only.
+Multi-transcript ambiguity,Experiment 4,exp4_candidate_set_size_vs_transcripts.png,reported,Finite K_adm and sampled payloads.
+Non-commutativity,Experiment 5,"exp5_commutation_rate_histogram.png, exp5_commutation_heatmap.png",reported,No impossibility claim.
+Perturbation brittleness,Experiment 6,exp6_decoded_edit_distance_by_perturbation.png,reported,Tested perturbations only.

@@ -1393,6 +1393,13 @@ def _clean_csv_value(value: Any) -> Any:
     value = _clean_for_json(value)
     if isinstance(value, (list, dict, tuple)):
         return json.dumps(value, ensure_ascii=False, sort_keys=True, default=_json_default)
+    if isinstance(value, str):
+        return (
+            value
+            .replace("\r\n", "\\n")
+            .replace("\n", "\\n")
+            .replace("\r", "\\r")
+        )
     return value
 
 
@@ -1424,7 +1431,8 @@ def write_table(path: Path, dataframe_or_rows: Any) -> Path:
         ensure_dirs()
         path = Path(path)
         path.parent.mkdir(parents=True, exist_ok=True)
-        dataframe_or_rows.to_csv(path, index=False, lineterminator="\n", encoding="utf-8")
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            dataframe_or_rows.to_csv(handle, index=False, lineterminator="\n")
         return path
     return write_csv(path, list(dataframe_or_rows))
 

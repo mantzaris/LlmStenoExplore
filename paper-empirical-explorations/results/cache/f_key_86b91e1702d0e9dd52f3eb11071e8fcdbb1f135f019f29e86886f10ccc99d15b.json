@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    85785,
+    1240,
+    817,
+    7452,
+    1967,
+    475,
+    1674
+  ],
+  "input_ranks": [
+    89803,
+    310,
+    105,
+    1,
+    4,
+    15,
+    10
+  ],
+  "key_text": "Write about baking bread in one paragraph.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    64249,
+    1261,
+    143,
+    1,
+    5,
+    12,
+    38
+  ],
+  "secret_prefix": ""
+}

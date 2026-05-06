@@ -1,0 +1,32 @@
+{
+  "generated_ids": [
+    89564,
+    27983,
+    832,
+    51052,
+    1396,
+    627,
+    32
+  ],
+  "input_ranks": [
+    99353,
+    662,
+    72,
+    684,
+    1,
+    8,
+    4
+  ],
+  "key_text": "Describe old books in plain language.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    4268,
+    337,
+    89,
+    1276,
+    1,
+    6,
+    6
+  ],
+  "secret_prefix": ""
+}

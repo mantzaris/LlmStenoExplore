@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    102322,
+    91,
+    89,
+    3500,
+    524,
+    614
+  ],
+  "input_ranks": [
+    89803,
+    40,
+    102,
+    7,
+    9,
+    3
+  ],
+  "key_text": "Write a short note about a train station.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    91452,
+    84,
+    32,
+    66,
+    63,
+    3
+  ],
+  "secret_prefix": ""
+}

@@ -1,0 +1,29 @@
+{
+  "generated_ids": [
+    28173,
+    1754,
+    10294,
+    1019,
+    11033,
+    38396
+  ],
+  "input_ranks": [
+    89803,
+    282,
+    33,
+    17,
+    4,
+    2
+  ],
+  "key_text": "Explain a scene involving coffee.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    39379,
+    2439,
+    9,
+    11,
+    8531,
+    1870
+  ],
+  "secret_prefix": ""
+}

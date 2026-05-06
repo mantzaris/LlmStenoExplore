@@ -1,0 +1,38 @@
+{
+  "generated_ids": [
+    49118,
+    43078,
+    1763,
+    3936,
+    90626,
+    477,
+    15956,
+    997,
+    10227
+  ],
+  "input_ranks": [
+    91095,
+    222,
+    124,
+    5,
+    7490,
+    13,
+    6,
+    8,
+    2
+  ],
+  "key_text": "Write about baking bread.",
+  "model_identity": "/home/meow/Documents/repos/LlmStenoExplore/models/llama3_8b/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+  "output_ranks": [
+    25529,
+    1330,
+    425,
+    16,
+    39168,
+    35,
+    65,
+    8,
+    15
+  ],
+  "secret_prefix": ""
+}

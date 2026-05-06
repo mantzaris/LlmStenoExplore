@@ -1,32 +1,61 @@
-key_id,category,text,context_ids,context_token_length
-0,admissible_key,Write about baking bread.,"[8144, 922, 28915, 16385, 13]",5
-1,admissible_key,xrite about baking bread.,"[87, 1269, 922, 28915, 16385, 13]",6
-2,admissible_key,Write about baking,"[8144, 922, 28915]",3
-3,admissible_key,Write about baking topic.,"[8144, 922, 28915, 8712, 13]",5
-4,admissible_key,Write about baking bread.s,"[8144, 922, 28915, 16385, 516]",5
-5,admissible_key,Write about baking bread!,"[8144, 922, 28915, 16385, 0]",5
-6,admissible_key,Describe a quiet mountain village.,"[75885, 264, 11594, 16700, 14458, 13]",6
-7,admissible_key,xescribe a quiet mountain village.,"[90774, 3191, 264, 11594, 16700, 14458, 13]",7
-8,admissible_key,Describe a quiet mountain,"[75885, 264, 11594, 16700]",4
-9,admissible_key,Describe a quiet mountain topic.,"[75885, 264, 11594, 16700, 8712, 13]",6
-10,admissible_key,Describe a quiet mountain villages.,"[75885, 264, 11594, 16700, 33889, 13]",6
-11,admissible_key,Describe a quiet mountain village!,"[75885, 264, 11594, 16700, 14458, 0]",6
-12,admissible_key,Talk about animals in a forest.,"[37310, 922, 10099, 304, 264, 13952, 13]",7
-13,admissible_key,xalk about animals in a forest.,"[87, 1727, 922, 10099, 304, 264, 13952, 13]",8
-14,admissible_key,Talk about animals in a,"[37310, 922, 10099, 304, 264]",5
-15,admissible_key,Talk about animals in a topic.,"[37310, 922, 10099, 304, 264, 8712, 13]",7
-16,admissible_key,Talk about animal in a forest.,"[37310, 922, 10065, 304, 264, 13952, 13]",7
-17,admissible_key,Talk about animals in a forest!,"[37310, 922, 10099, 304, 264, 13952, 0]",7
-18,admissible_key,Explain a baseball practice.,"[849, 21435, 264, 20075, 6725, 13]",6
-19,admissible_key,xxplain a baseball practice.,"[4239, 21435, 264, 20075, 6725, 13]",6
-20,admissible_key,Explain a baseball,"[849, 21435, 264, 20075]",4
-21,admissible_key,Explain a baseball topic.,"[849, 21435, 264, 20075, 8712, 13]",6
-22,admissible_key,Explain a baseball practice.s,"[849, 21435, 264, 20075, 6725, 516]",6
-23,admissible_key,Explain a baseball practice!,"[849, 21435, 264, 20075, 6725, 0]",6
-24,admissible_key,Describe ancient Roman roads.,"[75885, 14154, 13041, 19795, 13]",5
-25,admissible_key,xescribe ancient Roman roads.,"[90774, 3191, 14154, 13041, 19795, 13]",6
-26,admissible_key,Describe ancient Roman,"[75885, 14154, 13041]",3
-27,admissible_key,Describe ancient Roman topic.,"[75885, 14154, 13041, 8712, 13]",5
-28,admissible_key,Describe ancient Roman road.,"[75885, 14154, 13041, 5754, 13]",5
-29,admissible_key,Describe ancient Roman roads!,"[75885, 14154, 13041, 19795, 0]",5
-30,admissible_key,Write a neutral product description.,"[8144, 264, 21277, 2027, 4096, 13]",6
+key_id,key_text,text,key_category,category,token_length,context_token_length,context_ids
+0,Write about baking bread.,Write about baking bread.,default_or_required_near_duplicate,default_or_required_near_duplicate,5,5,"[8144, 922, 28915, 16385, 13]"
+1,xrite about baking bread.,xrite about baking bread.,one_character_typo_variant,one_character_typo_variant,6,6,"[87, 1269, 922, 28915, 16385, 13]"
+2,Write about baking,Write about baking,one_token_deletion_variant,one_token_deletion_variant,3,3,"[8144, 922, 28915]"
+3,Write about baking bread.s,Write about baking bread.s,plural_singular_variant,plural_singular_variant,5,5,"[8144, 922, 28915, 16385, 516]"
+4,Write about baking bread!,Write about baking bread!,punctuation_variant,punctuation_variant,5,5,"[8144, 922, 28915, 16385, 0]"
+5,Write about baking bread?,Write about baking bread?,punctuation_variant,punctuation_variant,5,5,"[8144, 922, 28915, 16385, 30]"
+6,Write about baking bread today.,Write about baking bread today.,short_suffix_variant,short_suffix_variant,6,6,"[8144, 922, 28915, 16385, 3432, 13]"
+7,Write about baking bread briefly.,Write about baking bread briefly.,short_suffix_variant,short_suffix_variant,6,6,"[8144, 922, 28915, 16385, 27851, 13]"
+8,Write about baking bread in one paragraph.,Write about baking bread in one paragraph.,short_suffix_variant,short_suffix_variant,8,8,"[8144, 922, 28915, 16385, 304, 832, 14646, 13]"
+9,Describe a quiet mountain village.,Describe a quiet mountain village.,default_or_required_near_duplicate,default_or_required_near_duplicate,6,6,"[75885, 264, 11594, 16700, 14458, 13]"
+10,xescribe a quiet mountain village.,xescribe a quiet mountain village.,one_character_typo_variant,one_character_typo_variant,7,7,"[90774, 3191, 264, 11594, 16700, 14458, 13]"
+11,Describe a quiet mountain,Describe a quiet mountain,one_token_deletion_variant,one_token_deletion_variant,4,4,"[75885, 264, 11594, 16700]"
+12,Describe a quiet mountain villages.,Describe a quiet mountain villages.,plural_singular_variant,plural_singular_variant,6,6,"[75885, 264, 11594, 16700, 33889, 13]"
+13,Describe a quiet mountain village!,Describe a quiet mountain village!,punctuation_variant,punctuation_variant,6,6,"[75885, 264, 11594, 16700, 14458, 0]"
+14,Describe a quiet mountain village?,Describe a quiet mountain village?,punctuation_variant,punctuation_variant,6,6,"[75885, 264, 11594, 16700, 14458, 30]"
+15,Describe a quiet mountain village today.,Describe a quiet mountain village today.,short_suffix_variant,short_suffix_variant,7,7,"[75885, 264, 11594, 16700, 14458, 3432, 13]"
+16,Describe a quiet mountain village briefly.,Describe a quiet mountain village briefly.,short_suffix_variant,short_suffix_variant,7,7,"[75885, 264, 11594, 16700, 14458, 27851, 13]"
+17,Describe a quiet mountain village in one paragraph.,Describe a quiet mountain village in one paragraph.,short_suffix_variant,short_suffix_variant,9,9,"[75885, 264, 11594, 16700, 14458, 304, 832, 14646, 13]"
+18,Talk about animals in a forest.,Talk about animals in a forest.,default_or_required_near_duplicate,default_or_required_near_duplicate,7,7,"[37310, 922, 10099, 304, 264, 13952, 13]"
+19,xalk about animals in a forest.,xalk about animals in a forest.,one_character_typo_variant,one_character_typo_variant,8,8,"[87, 1727, 922, 10099, 304, 264, 13952, 13]"
+20,Talk about animals in a,Talk about animals in a,one_token_deletion_variant,one_token_deletion_variant,5,5,"[37310, 922, 10099, 304, 264]"
+21,Talk about animal in a forest.,Talk about animal in a forest.,plural_singular_variant,plural_singular_variant,7,7,"[37310, 922, 10065, 304, 264, 13952, 13]"
+22,Talk about animals in a forest!,Talk about animals in a forest!,punctuation_variant,punctuation_variant,7,7,"[37310, 922, 10099, 304, 264, 13952, 0]"
+23,Talk about animals in a forest?,Talk about animals in a forest?,punctuation_variant,punctuation_variant,7,7,"[37310, 922, 10099, 304, 264, 13952, 30]"
+24,Talk about animals in a forest today.,Talk about animals in a forest today.,short_suffix_variant,short_suffix_variant,8,8,"[37310, 922, 10099, 304, 264, 13952, 3432, 13]"
+25,Talk about animals in a forest briefly.,Talk about animals in a forest briefly.,short_suffix_variant,short_suffix_variant,8,8,"[37310, 922, 10099, 304, 264, 13952, 27851, 13]"
+26,Talk about animals in a forest in one paragraph.,Talk about animals in a forest in one paragraph.,short_suffix_variant,short_suffix_variant,10,10,"[37310, 922, 10099, 304, 264, 13952, 304, 832, 14646, 13]"
+27,Explain a baseball practice.,Explain a baseball practice.,default_or_required_near_duplicate,default_or_required_near_duplicate,6,6,"[849, 21435, 264, 20075, 6725, 13]"
+28,xxplain a baseball practice.,xxplain a baseball practice.,one_character_typo_variant,one_character_typo_variant,6,6,"[4239, 21435, 264, 20075, 6725, 13]"
+29,Explain a baseball,Explain a baseball,one_token_deletion_variant,one_token_deletion_variant,4,4,"[849, 21435, 264, 20075]"
+30,Explain a baseball practice.s,Explain a baseball practice.s,plural_singular_variant,plural_singular_variant,6,6,"[849, 21435, 264, 20075, 6725, 516]"
+31,Explain a baseball practice!,Explain a baseball practice!,punctuation_variant,punctuation_variant,6,6,"[849, 21435, 264, 20075, 6725, 0]"
+32,Explain a baseball practice?,Explain a baseball practice?,punctuation_variant,punctuation_variant,6,6,"[849, 21435, 264, 20075, 6725, 30]"
+33,Explain a baseball practice today.,Explain a baseball practice today.,short_suffix_variant,short_suffix_variant,7,7,"[849, 21435, 264, 20075, 6725, 3432, 13]"
+34,Explain a baseball practice briefly.,Explain a baseball practice briefly.,short_suffix_variant,short_suffix_variant,7,7,"[849, 21435, 264, 20075, 6725, 27851, 13]"
+35,Explain a baseball practice in one paragraph.,Explain a baseball practice in one paragraph.,short_suffix_variant,short_suffix_variant,9,9,"[849, 21435, 264, 20075, 6725, 304, 832, 14646, 13]"
+36,Describe ancient Roman roads.,Describe ancient Roman roads.,default_or_required_near_duplicate,default_or_required_near_duplicate,5,5,"[75885, 14154, 13041, 19795, 13]"
+37,xescribe ancient Roman roads.,xescribe ancient Roman roads.,one_character_typo_variant,one_character_typo_variant,6,6,"[90774, 3191, 14154, 13041, 19795, 13]"
+38,Describe ancient Roman,Describe ancient Roman,one_token_deletion_variant,one_token_deletion_variant,3,3,"[75885, 14154, 13041]"
+39,Describe ancient Roman road.,Describe ancient Roman road.,plural_singular_variant,plural_singular_variant,5,5,"[75885, 14154, 13041, 5754, 13]"
+40,Describe ancient Roman roads!,Describe ancient Roman roads!,punctuation_variant,punctuation_variant,5,5,"[75885, 14154, 13041, 19795, 0]"
+41,Describe ancient Roman roads?,Describe ancient Roman roads?,punctuation_variant,punctuation_variant,5,5,"[75885, 14154, 13041, 19795, 30]"
+42,Describe ancient Roman roads today.,Describe ancient Roman roads today.,short_suffix_variant,short_suffix_variant,6,6,"[75885, 14154, 13041, 19795, 3432, 13]"
+43,Describe ancient Roman roads briefly.,Describe ancient Roman roads briefly.,short_suffix_variant,short_suffix_variant,6,6,"[75885, 14154, 13041, 19795, 27851, 13]"
+44,Describe ancient Roman roads in one paragraph.,Describe ancient Roman roads in one paragraph.,short_suffix_variant,short_suffix_variant,8,8,"[75885, 14154, 13041, 19795, 304, 832, 14646, 13]"
+45,Write a neutral product description.,Write a neutral product description.,default_or_required_near_duplicate,default_or_required_near_duplicate,6,6,"[8144, 264, 21277, 2027, 4096, 13]"
+46,xrite a neutral product description.,xrite a neutral product description.,one_character_typo_variant,one_character_typo_variant,7,7,"[87, 1269, 264, 21277, 2027, 4096, 13]"
+47,Write a neutral product,Write a neutral product,one_token_deletion_variant,one_token_deletion_variant,4,4,"[8144, 264, 21277, 2027]"
+48,Write a neutral product descriptions.,Write a neutral product descriptions.,plural_singular_variant,plural_singular_variant,6,6,"[8144, 264, 21277, 2027, 28887, 13]"
+49,Write a neutral product description!,Write a neutral product description!,punctuation_variant,punctuation_variant,6,6,"[8144, 264, 21277, 2027, 4096, 0]"
+50,Write a neutral product description?,Write a neutral product description?,punctuation_variant,punctuation_variant,6,6,"[8144, 264, 21277, 2027, 4096, 30]"
+51,Write a neutral product description today.,Write a neutral product description today.,short_suffix_variant,short_suffix_variant,7,7,"[8144, 264, 21277, 2027, 4096, 3432, 13]"
+52,Write a neutral product description briefly.,Write a neutral product description briefly.,short_suffix_variant,short_suffix_variant,7,7,"[8144, 264, 21277, 2027, 4096, 27851, 13]"
+53,Write a neutral product description in one paragraph.,Write a neutral product description in one paragraph.,short_suffix_variant,short_suffix_variant,9,9,"[8144, 264, 21277, 2027, 4096, 304, 832, 14646, 13]"
+54,The quick brown fox jumps,The quick brown fox jumps,default_or_required_near_duplicate,default_or_required_near_duplicate,5,5,"[791, 4062, 14198, 39935, 35308]"
+55,xhe quick brown fox jumps,xhe quick brown fox jumps,one_character_typo_variant,one_character_typo_variant,6,6,"[87, 383, 4062, 14198, 39935, 35308]"
+56,The quick brown fox,The quick brown fox,one_token_deletion_variant,one_token_deletion_variant,4,4,"[791, 4062, 14198, 39935]"
+57,The quick brown fox jumpss,The quick brown fox jumpss,plural_singular_variant,plural_singular_variant,6,6,"[791, 4062, 14198, 39935, 7940, 784]"
+58,The quick brown fox jumps.,The quick brown fox jumps.,punctuation_variant,punctuation_variant,6,6,"[791, 4062, 14198, 39935, 35308, 13]"
+59,The quick brown fox jumps!,The quick brown fox jumps!,punctuation_variant,punctuation_variant,6,6,"[791, 4062, 14198, 39935, 35308, 0]"

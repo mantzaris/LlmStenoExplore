@@ -1,0 +1,71 @@
+case_id,payload_id,key_id,payload_text,key_text,perturbation_type,perturbation_position,token_length,decoded_token_edit_distance,normalized_decoded_token_edit_distance,first_mismatch_position,suffix_corruption_fraction,corrupted,original_stegotext,perturbed_stegotext,decoded_original,decoded_perturbed,corruption_rate,corruption_wilson95_low,corruption_wilson95_high
+0,6,18,The archive contains several old records.,Explain a baseball practice.,random_token_substitution,3,7,4,0.5714285714285714,3,1.0,True, leží astute to show what I, leží astute TRUE show what I, The archive contains several old records., The archive contains AuraDeep copies and,1.0,0.8620237953250198,1.0
+0,6,18,The archive contains several old records.,Explain a baseball practice.,nearby_rank_substitution,4,7,3,0.42857142857142855,4,1.0,True, leží astute to show what I, leží astute to determine what I, The archive contains several old records.," The archive contains several unique features,
+",1.0,0.8620237953250198,1.0
+0,6,18,The archive contains several old records.,Explain a baseball practice.,adjacent_token_transposition,5,7,2,0.2857142857142857,5,1.0,True, leží astute to show what I, leží astute to show I what, The archive contains several old records., The archive contains several old research packages,1.0,0.8620237953250198,1.0
+0,6,18,The archive contains several old records.,Explain a baseball practice.,punctuation_token_substitution,3,7,4,0.5714285714285714,3,1.0,True, leží astute to show what I, leží astute : show what I, The archive contains several old records., The archive contains observations catalog- and,1.0,0.8620237953250198,1.0
+1,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,random_token_substitution,6,9,3,0.3333333333333333,6,1.0,True,"ósitoth, please retrieve a batto the","ósitoth, please retrieve a'])
+
+to the", The lab notebook was hidden in the cabinet., The lab notebook was hidden in TZIZIQ,1.0,0.8620237953250198,1.0
+1,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,nearby_rank_substitution,7,9,2,0.2222222222222222,7,1.0,True,"ósitoth, please retrieve a batto the","ósitoth, please retrieve a bat
+
+ the", The lab notebook was hidden in the cabinet., The lab notebook was hidden in the same anarchist,1.0,0.8620237953250198,1.0
+1,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,adjacent_token_transposition,7,9,2,0.2222222222222222,7,1.0,True,"ósitoth, please retrieve a batto the","ósitoth, please retrieve a bat theto", The lab notebook was hidden in the cabinet., The lab notebook was hidden in the cave restroom,1.0,0.8620237953250198,1.0
+1,4,21,The lab notebook was hidden in the cabinet.,Explain a baseball topic.,punctuation_token_substitution,8,9,1,0.1111111111111111,8,1.0,True,"ósitoth, please retrieve a batto the","ósitoth, please retrieve a batto ,", The lab notebook was hidden in the cabinet., The lab notebook was hidden in the cabinet.Now,1.0,0.8620237953250198,1.0
+2,7,12,The device stopped working after midnight.,Talk about animals in a forest.,random_token_substitution,6,7,1,0.14285714285714285,6,1.0,True,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtk_item>
+``”
+
+ ptr", The device stopped working after midnight., The device stopped working after midnightuvo,1.0,0.8620237953250198,1.0
+2,7,12,The device stopped working after midnight.,Talk about animals in a forest.,nearby_rank_substitution,2,7,5,0.7142857142857143,2,1.0,True,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtkcombo>
+``”
+
+This", The device stopped working after midnight., The device -- a small team of,1.0,0.8620237953250198,1.0
+2,7,12,The device stopped working after midnight.,Talk about animals in a forest.,adjacent_token_transposition,5,7,2,0.2857142857142857,5,1.0,True,"""/>.</gtk_item>
+``”
+
+This","""/>.</gtk_item>
+``This”
+
+", The device stopped working after midnight., The device stopped working after using calam,1.0,0.8620237953250198,1.0
+2,7,12,The device stopped working after midnight.,Talk about animals in a forest.,punctuation_token_substitution,0,7,6,0.8571428571428571,0,0.8571428571428571,True,"""/>.</gtk_item>
+``”
+
+This"," ?gtk_item>
+``”
+
+This", The device stopped working after midnight.,199.Properties./: 386.,1.0,0.8620237953250198,1.0
+3,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,random_token_substitution,4,9,5,0.5555555555555556,4,1.0,True,"<style product-text-style-item>
+    [product","<style product-text-style Mock>
+    [product", The lab notebook was hidden in the cabinet., The lab notebook waseligeat to get to,1.0,0.8620237953250198,1.0
+3,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,nearby_rank_substitution,6,9,3,0.3333333333333333,6,1.0,True,"<style product-text-style-item>
+    [product","<style product-text-style-item>
+Product [product", The lab notebook was hidden in the cabinet., The lab notebook was hidden in plain #s,1.0,0.8620237953250198,1.0
+3,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,adjacent_token_transposition,0,9,9,1.0,0,1.0,True,"<style product-text-style-item>
+    [product"," product<style-text-style-item>
+    [product", The lab notebook was hidden in the cabinet.,Using Occasionally E. xanthium-1,1.0,0.8620237953250198,1.0
+3,4,30,The lab notebook was hidden in the cabinet.,Write a neutral product description.,punctuation_token_substitution,3,9,6,0.6666666666666666,3,1.0,True,"<style product-text-style-item>
+    [product","<style product-text :-item>
+    [product", The lab notebook was hidden in the cabinet., The lab notebook window persoalizes many aspects,1.0,0.8620237953250198,1.0
+4,0,24,Switzerland is expensive.,Describe ancient Roman roads.,random_token_substitution,0,4,4,1.0,0,1.0,True,"rors, infrastructure and"," lob, infrastructure and", Switzerland is expensive.,_one_of著名,1.0,0.8620237953250198,1.0
+4,0,24,Switzerland is expensive.,Describe ancient Roman roads.,nearby_rank_substitution,0,4,4,1.0,0,1.0,True,"rors, infrastructure and","ộp, infrastructure and", Switzerland is expensive.,ламент США UNAN,1.0,0.8620237953250198,1.0
+4,0,24,Switzerland is expensive.,Describe ancient Roman roads.,adjacent_token_transposition,1,4,3,0.75,1,1.0,True,"rors, infrastructure and","rors infrastructure, and", Switzerland is expensive., Switzerland govt to,1.0,0.8620237953250198,1.0
+4,0,24,Switzerland is expensive.,Describe ancient Roman roads.,punctuation_token_substitution,3,4,1,0.25,3,1.0,True,"rors, infrastructure and","rors, infrastructure ,", Switzerland is expensive., Switzerland is expensive :,1.0,0.8620237953250198,1.0
+5,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,random_token_substitution,2,8,6,0.75,2,1.0,True,"-ring a solitary.
+Answer: a peaceful","-ring aamide.
+Answer: a peaceful", A small bird landed near the window.," A small-ups and its applications, the",1.0,0.8620237953250198,1.0
+5,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,nearby_rank_substitution,5,8,3,0.375,5,1.0,True,"-ring a solitary.
+Answer: a peaceful","-ring a solitary.
+Answer:
+ a peaceful", A small bird landed near the window., A small bird landed near me Plans and,1.0,0.8620237953250198,1.0
+5,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,adjacent_token_transposition,0,8,8,1.0,0,1.0,True,"-ring a solitary.
+Answer: a peaceful"," a-ring solitary.
+Answer: a peaceful", A small bird landed near the window.,"Car Constitondo – ""The Future is",1.0,0.8620237953250198,1.0
+5,5,9,A small bird landed near the window.,Describe a quiet mountain topic.,punctuation_token_substitution,7,8,1,0.125,7,1.0,True,"-ring a solitary.
+Answer: a peaceful","-ring a solitary.
+Answer: a ?", A small bird landed near the window., A small bird landed near the window................,1.0,0.8620237953250198,1.0
