@@ -1152,6 +1152,45 @@ def boxplot(
     return fig
 
 
+def horizontal_boxplot(
+    data_by_label: Dict[str, Sequence[float]],
+    filename: str,
+    title: str,
+    xlabel: str,
+    ylabel: str = "",
+    label_map: Optional[Dict[str, str]] = None,
+    order: Optional[Sequence[str]] = None,
+    pdf_filename: Optional[str] = None,
+    alternate_png_filename: Optional[str] = None,
+    figsize: Tuple[float, float] = (8.0, 4.8),
+    dpi: int = 300,
+) -> Any:
+    import matplotlib.pyplot as plt
+
+    labels = list(order) if order is not None else list(data_by_label.keys())
+    labels = [label for label in labels if label in data_by_label]
+    values = [list(data_by_label[label]) for label in labels]
+    display_labels = [label_map.get(label, label) if label_map else label for label in labels]
+
+    fig, ax = plt.subplots(figsize=figsize)
+    ax.boxplot(values, vert=False, labels=display_labels, showmeans=True)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.grid(True, axis="x", alpha=0.3)
+    fig.tight_layout()
+
+    output_path = _prepare_figure(filename)
+    fig.savefig(output_path, dpi=dpi, bbox_inches="tight")
+    if alternate_png_filename:
+        alt_path = _prepare_figure(alternate_png_filename)
+        fig.savefig(alt_path, dpi=dpi, bbox_inches="tight")
+    if pdf_filename:
+        pdf_path = _prepare_figure(pdf_filename)
+        fig.savefig(pdf_path, bbox_inches="tight")
+    return fig
+
+
 def scatter_plot(
     x: Sequence[float],
     y: Sequence[float],

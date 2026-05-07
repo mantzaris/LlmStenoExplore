@@ -13,6 +13,6 @@ results/figures/exp5_commutation_rate_histogram.png,Experiment 5,Histogram of sa
 results/figures/exp5_commutation_distance_cdf.png,Experiment 5,Empirical CDF of mean metric commutation distances.,Metric non-commutativity in tested key pairs.
 results/figures/exp5_commutation_heatmap.png,Experiment 5,Heatmap of sampled commutation rates among displayed keys.,Pairwise non-commutativity structure.
 results/figures/exp5_Nk_tau_curve.png,Experiment 5,Average number of key partners below a commutation-distance threshold.,Related-instance threshold behavior.
-results/figures/exp6_decoded_edit_distance_by_perturbation.png,Experiment 6,Decoded token edit distance by length-preserving perturbation type.,Perturbation brittleness.
+results/figures/exp6_decoded_edit_distance_by_perturbation.png,Experiment 6,Horizontal boxplot of decoded token edit distance by length-preserving perturbation type.,Perturbation brittleness.
 results/figures/exp6_perturb_position_vs_error_heatmap.png,Experiment 6,Mean suffix corruption fraction by perturbation type and position.,Error propagation after perturbation.
 results/figures/exp6_token_agreement_after_perturbation.png,Experiment 6,Average decoded token agreement after the perturbation position.,Error propagation after perturbation.
